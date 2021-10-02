@@ -1,14 +1,25 @@
 # Annexe
-## Premier
 
-wuppie!
+## Réalisation du mémoire
+La réalisation de ce mémoire résulte d'un travail de longue haleine.
+J'ai commencé par identifier les tâches qui pourrait me coûter du temps. Tout temps lors de l'écriture d'un mémoire est précieux.
 
-## Second
+### Les tâches coûteuses en temps
 
-fluppie?
+### La partie syntaxique
+...
 
-## Troixième
+### La bibliographie
+...
 
-foo! bar!
+### Le stockage du code
+...
 
-## Quatrième
+### La publication du code
+...
+
+### Processus de validation
+...
+
+### Génération du mémoire
+...

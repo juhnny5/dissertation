@@ -8,7 +8,7 @@ References are automatically generated from the BibTex file (references.bib)
 
 # Bibliographie {.unnumbered}
 
-\markboth{Bibliographie}{Bibliographie}
+\markboth{Référence biblio}{Bibliographie}
 
 ::: {#refs}
 :::

@@ -1,5 +1,3 @@
-
-%------------------------------------- Custom Title Page ---------------------------
 \renewcommand{\maketitle}{
 \thispagestyle{empty}
 
@@ -40,6 +38,7 @@ $endif$
 \large
 \begin{tabular}{lp{\textwidth}}
     Auteur: & \texttt{$for(author)$$author$$sep$ \and $endfor$}\\
+    E-mail: & \texttt{$for(email)$$email$$sep$ \and $endfor$}\\
     &\\[12pt]
     Date de publication: & \texttt{$date$}\\
     Heure de publication: & \texttt{$hour$}\\
@@ -49,11 +48,7 @@ $endif$
     Deuxième examinateur: & \texttt{$reviewer2$}
 \end{tabular}
 }
-%------------------------------------- Custom Title Page ---------------------------
 
-
-
-%------------------------------------- Custom Title (Back) Page --------------------
 \newcommand\customtitlebackpage{
 \thispagestyle{empty}
 \hfill
@@ -64,4 +59,3 @@ $date$ \\[12pt]
 Examinateur initial: $reviewer1$ \\
 Deuxième examinateur: $reviewer2$
 }
-%------------------------------------- Custom Title (Back) Page --------------------

@@ -1,26 +1,19 @@
-%------------------------------------- Custom table content ------------------------
-
 \renewcommand{\contentsname}{Table des matières}
-
-%------------------------------------- Custom figure content -----------------------
-
 \renewcommand{\figurename}{Illustration}
+\renewcommand{\listfigurename}{Table des figures}
 
-%------------------------------------- Custom Licence Page -------------------------
 $if(licence)$
 \chapter*{Licence}
 \addcontentsline{toc}{chapter}{Licence}
 $licence$
 $endif$
 
-%------------------------------------- Custom Sources Page -------------------------
 $if(sources)$
 \chapter*{Sources}
 \addcontentsline{toc}{chapter}{Sources}
 $sources$
 $endif$
 
-%------------------------------------- Custom Abstract Page ------------------------
 $if(abstract-fr)$
 \cleardoublepage
 \begin{minipage}{\linewidth}
@@ -38,26 +31,15 @@ $endif$
 \end{minipage}
 \cleardoublepage
 $endif$
-%------------------------------------- Custom Abstract Page ------------------------
 
-%------------------------------------- Acknowledgements Page -----------------------
 $if(acknowledgements)$
 \chapter*{Remerciements}
 $acknowledgements$
 $endif$
-%------------------------------------- Acknowledgements Page -----------------------
 
-
-
-%------------------------------------- Restriction Note Page -----------------------
 $if(restrictionnote)$
 \chapter*{Note de blocage}
 $restrictionnote$
 $endif$
-%------------------------------------- Restriction Note Page -----------------------
 
-
-
-%------------------------------------- Clear page before TOC -----------------------
 \cleardoublepage
-%------------------------------------- Clear page before TOC -----------------------

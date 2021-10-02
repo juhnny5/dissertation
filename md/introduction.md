@@ -1,34 +1,19 @@
 # Introduction
+...
 
-## Markdown und -Erweiterungen durch Pandoc
+## Etat des lieux
+...
 
-Für eine Einführung in (Pandoc-) Markdown vgl. [pandoc.org/MANUAL.html](https://pandoc.org/MANUAL.html).
-
-Da als Backend \LaTeX{} zum Einsatz kommt, können alle entsprechenden Befehle und Umgebungen ebenfalls
-genutzt werden (ggf. muss noch das jeweilige Paket importiert werden).
-
-**Tipp**: Für eine schnelle Übersicht einfach den Quelltext ansehen (`./md/introduction.md`).
-
-
-## Zitieren
+## Références dans un texte
 
 Einfach den Bibtex-Key mit einem `@` davor in eckigen Klammern schreiben: Aus `[@Dietz2018]` wird [@Dietz2018] ...
-Mit Seiten- oder Kapitelangabe: Aus `[@Dietz2018, Seite 111]` oder `[@Dietz2018, Kapitel 111]` wird
-[@Dietz2018, Seite 111] oder [@Dietz2018, Kapitel 111] ...
+Mit Seiten- oder Kapitelangabe: Aus `[@Dietz2018, Seite 111]` oder `[@Dietz2018, Kapitel 111]` wird [^1]
 
-Pandoc (bzw. `pandoc-citeproc`) nutzt per Default den *Chicago Manual of Style*-Stil^[vgl.
-[pandoc.org/MANUAL.html#citations](https://pandoc.org/MANUAL.html#citations)].
-Für andere Zitierstile (etwa numerisch oder als Fußnote) sind auf [zotero.org/styles](https://www.zotero.org/styles)
-die passenden CSL-Dateien zum Download zu finden. Die Aktivierung erfolgt über die Option
-`--csl=XXX.csl` in der Datei `Makefile`.
+[^1]: Ma première note de bas de page ! Ajoutez un [lien](https://www.eff.org/).
 
-**Tipp**: Unter [editor.citationstyles.org/searchByName/](https://editor.citationstyles.org/searchByName/)
-können Sie sich die Wirkung der jeweiligen Zitierstile/CSL-Definitionen anschauen.
+## Exemple d'image
 
-
-## Abbildungen
-
-![Hier steht die Bildunterschrift, Quelle: [@Dietz2018] \label{fig:foo}](img/wuppie.png){width=80%}
+![Voici le sous-titre, source: [@Dietz2018] \label{fig:foo}](img/wuppie.png){width=80%}
 
 
 ## Source-Code
@@ -38,19 +23,6 @@ def foo():
   """ Wuppie! """
   pass
 ```
-
-## Mathe
-
-Display-Math geht wie in \LaTeX{} mit einem doppelten Dollarzeichen (entspricht der `equation`-Umgebung):
-
-$$
-    \label{eq:wuppie}
-    \nabla E(\mathbf{w}) = \left( \frac{\partial E}{\partial w_{0}}, \frac{\partial E}{\partial w_{1}}, \ldots, \frac{\partial E}{\partial w_{n}} \right)^T
-$$
-
-Inline-Math geht mit einem einfachen Dollar-Zeichen: $\mathbf{w} \gets \mathbf{w} + \Delta\mathbf{w}$ ...
-
-
 ## Tabellen
 
 | Rechtsbündig | Linksbündig | Default | Zentriert |
