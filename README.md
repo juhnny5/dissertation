@@ -27,7 +27,7 @@ Ce dépôt contient le code tout comme le texte qui fait référence à mon mém
   </ol>
 </details>
 
-## Générer une release 🥶
+## Générer une release
 ### Prérequis
 Pour installer les prérequis:
 ```bash
@@ -52,7 +52,7 @@ Pour générer le fichier, il faut se rendre à la racine du projet et exécuter
 make clean; make simple
 ```
 
-## Licence 🧐
+## Licence
 ![](img/CCBYSA.png)
 
 Le projet est sous licence **CC BY-SA** (Attribution - Partage dans les Mêmes Conditions).
