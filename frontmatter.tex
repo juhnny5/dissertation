@@ -2,11 +2,22 @@
 
 \renewcommand{\contentsname}{Table des matières}
 
-%------------------------------------- Custom Preface Page -------------------------
-$if(preface)$
-\chapter*{Avant-Propos}
-\addcontentsline{toc}{chapter}{Avant-Propos}
-$preface$
+%------------------------------------- Custom figure content -----------------------
+
+\renewcommand{\figurename}{Illustration}
+
+%------------------------------------- Custom Licence Page -------------------------
+$if(licence)$
+\chapter*{Licence}
+\addcontentsline{toc}{chapter}{Licence}
+$licence$
+$endif$
+
+%------------------------------------- Custom Sources Page -------------------------
+$if(sources)$
+\chapter*{Sources}
+\addcontentsline{toc}{chapter}{Sources}
+$sources$
 $endif$
 
 %------------------------------------- Custom Abstract Page ------------------------

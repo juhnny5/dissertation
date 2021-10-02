@@ -5,29 +5,21 @@ author: "Julien Briault"
 keywords: [Markdown]
 headeralternative: true
 date: "02/10/2021"
-hour: "19:09:32"
-revision: "4671eec71ac5c9854695eb5554d94fddb95ced46"
-reviewer1: "Frédéric Bouzy, Ecole IPSSY"
+hour: "20:15:30"
+revision: "bbd3a3bfda8c6d9dd670002567b6cdd72deeafc7"
+reviewer1: "Frédéric Bouzy, IPSSI"
 reviewer2: "Alexendre Brianceau, Normation SAS"
-## optional (mandatory, if english abstract enabled)
 abstract-fr: |
   Je suis un résumé.
-## optional
 abstract-en: |
   This is an english abstract.
-preface: |
-  Je suis un avant-propos
-## optional
+licence: "![](img/CCBYSA.png)\n\nLe contenu de ce mémoire est (sauf signalement contraire), soumit à la licence **CC BY-SA FR 2.0** [@CCBYSA]. \nCette licence regroupe les obligations d'attribution de l'auteur, d'usage non commercial et de partage dans les mêmes conditions (en utilisant la même licence).\nEn outre, vous êtes libre de partager ce fichier et d'utiliser ce fichier, tant que celui-ci ne se retrouve pas face à l'un des critères annoncés.\n\nA l'inverse des licences de type *copyleft* [@Copyleft1996], cette licence dite permissive (ou *open source* [@OpenSourceDefinition]) se veut être le plus proche possible du domaine public.\nL'auteur qui place son oeuvre sous une licence permissive renonce à tous ses droits sur celle-ci.\n\nDans le droit français, le droit moral impose de mentionner le nom de l'auteur pour chaque utiliser d'une oeuvre [@DroitFR2018].\nCette réglementation n'est pas en vigueur dans certains pays (aux Etats-Unis, par exemple).\n"
+sources: "Comme annoncé ci-dessus, ce mémoire est disponible de manière libre et peut être modifié par n'importe qui. Pour que cela soit possible, le code source du projet (du mémoire et des outils annexes) est stocké dans un dépôt **Git** [@Git2012]. \n\nPour récupérer les sources et constuire le projet, veuillez suivre le fichier **README** présent dans le dépôt [https://github.com/julienbriault/dissertation](https://github.com/julienbriault/dissertation)."
 acknowledgements: |
   Remerciements
-## optional
-# restrictionnote: |
-# Notes concernant les restrictions rencontrées
-
-## mandatory
 declaration: |
   Je, Julien Briault, déclare être l'auteur de ce mémoire, d'avoir cité les différentes sources utilisées, en outre, de ne pas avoir réalisé de plagiat d'un autre auteur.
 ---
 date: "02/10/2021"
-hour: "19:09:32"
-revision: "4671eec71ac5c9854695eb5554d94fddb95ced46"
+hour: "20:15:30"
+revision: "bbd3a3bfda8c6d9dd670002567b6cdd72deeafc7"
