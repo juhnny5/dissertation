@@ -1,4 +1,6 @@
 
+.DEFAULT_GOAL: all
+
 .PHONY: all
 all: dockerfile.df
 	docker build -t pandoc-thesis -f dockerfile.df .
