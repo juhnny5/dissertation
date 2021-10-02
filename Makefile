@@ -91,9 +91,9 @@ authors: ## Generate or update AUTHORS file
 	bash scripts/docs/generate-authors.sh
 
 ${TARGET}: $(SRC) $(REFERENCES) $(APPENDIX) $(META) $(BIBFILE) $(TMP) ## Build thesis
-	$(YQ) eval -i 'with(.date ; . = "$(BUILDDATE1)" | . style="double")' md/metadata.yaml
-	$(YQ) eval -i 'with(.hour ; . = "$(BUILDDATE2)" | . style="double")' md/metadata.yaml
-	$(YQ) eval -i 'with(.revision ; . = "$(REVISION)" | . style="double")' md/metadata.yaml
+	$(YQ) eval -i 'with(.date ; . = "$(BUILDDATE1)" | . style="double")' $(META)
+	$(YQ) eval -i 'with(.hour ; . = "$(BUILDDATE2)" | . style="double")' $(META)
+	$(YQ) eval -i 'with(.revision ; . = "$(REVISION)" | . style="double")' $(META)
 
 	$(PANDOC) ${OPTIONS} -o $@ $(SRC) $(REFERENCES) $(APPENDIX)
 
