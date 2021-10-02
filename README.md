@@ -2,7 +2,7 @@
 
 Ce dépôt contient le code tout comme le texte qui fait référence à mon mémoire de Mastère 2. Le sujet de ce mémoire est de répondre à la problématique suivante: 
 
-> *Comment réussir à intégrer efficacement la sécurité au sein du développement et de l'opérationnel?*
+> *Comment réussir à intégrer efficacement la sécurité au sein d'une équipe DevOps?*
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
