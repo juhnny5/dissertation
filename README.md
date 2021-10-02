@@ -27,5 +27,6 @@ make clean; make simple
 
 ## Licence
 ![](img/CCBYSA.png)
+
 Le projet est sous licence **CC BY-SA** (Attribution - Partage dans les Mêmes Conditions).
 Si vous souhaitez plus d'informations à ce sujet, vous pouvez vous rendre sur [cette page](https://creativecommons.org/licenses/by-sa/4.0/).
