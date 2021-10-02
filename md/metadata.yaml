@@ -5,8 +5,8 @@ author: "Julien Briault"
 keywords: [Markdown]
 headeralternative: true
 date: "02/10/2021"
-hour: "17:11:45"
-revision: "38c87bf4e55852cf196d62d3c46c260860217e14"
+hour: "19:09:32"
+revision: "4671eec71ac5c9854695eb5554d94fddb95ced46"
 reviewer1: "Frédéric Bouzy, Ecole IPSSY"
 reviewer2: "Alexendre Brianceau, Normation SAS"
 ## optional (mandatory, if english abstract enabled)
@@ -15,6 +15,8 @@ abstract-fr: |
 ## optional
 abstract-en: |
   This is an english abstract.
+preface: |
+  Je suis un avant-propos
 ## optional
 acknowledgements: |
   Remerciements
@@ -24,5 +26,8 @@ acknowledgements: |
 
 ## mandatory
 declaration: |
-  Déclaration ...
+  Je, Julien Briault, déclare être l'auteur de ce mémoire, d'avoir cité les différentes sources utilisées, en outre, de ne pas avoir réalisé de plagiat d'un autre auteur.
 ---
+date: "02/10/2021"
+hour: "19:09:32"
+revision: "4671eec71ac5c9854695eb5554d94fddb95ced46"

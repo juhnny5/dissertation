@@ -2,6 +2,13 @@
 
 \renewcommand{\contentsname}{Table des matières}
 
+%------------------------------------- Custom Preface Page -------------------------
+$if(preface)$
+\chapter*{Avant-Propos}
+\addcontentsline{toc}{chapter}{Avant-Propos}
+$preface$
+$endif$
+
 %------------------------------------- Custom Abstract Page ------------------------
 $if(abstract-fr)$
 \cleardoublepage
