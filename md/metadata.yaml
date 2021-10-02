@@ -5,8 +5,8 @@ author: "Julien Briault"
 keywords: [Markdown]
 headeralternative: true
 date: "02/10/2021"
-hour: "16:24:13"
-revision: "e46d01528755c31ff9c6db26631187971cdadee7"
+hour: "17:11:45"
+revision: "38c87bf4e55852cf196d62d3c46c260860217e14"
 reviewer1: "Frédéric Bouzy, Ecole IPSSY"
 reviewer2: "Alexendre Brianceau, Normation SAS"
 ## optional (mandatory, if english abstract enabled)
@@ -26,9 +26,3 @@ acknowledgements: |
 declaration: |
   Déclaration ...
 ---
-publish:
-  date: "02/10/2021 16:15:35"
-  revision: "6c9f3a5d6a690d4b53b542a2edf8a2732b39e35b"
-date: "02/10/2021"
-revision: "e46d01528755c31ff9c6db26631187971cdadee7"
-hour: "16:24:13"

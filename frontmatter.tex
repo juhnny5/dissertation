@@ -1,12 +1,6 @@
+%------------------------------------- Custom table content ------------------------
 
-%------------------------------------- Custom Title (Back) Page --------------------
-$if(cleanthesis)$
-\clearpage
-\customtitlebackpage
-$endif$
-%------------------------------------- Custom Title (Back) Page --------------------
-
-
+\renewcommand{\contentsname}{Table des matières}
 
 %------------------------------------- Custom Abstract Page ------------------------
 $if(abstract-fr)$
@@ -14,12 +8,12 @@ $if(abstract-fr)$
 \begin{minipage}{\linewidth}
 
 \chapter*{Résumé}
-%\addcontentsline{toc}{chapter}{Zusammenfassung}
+\addcontentsline{toc}{chapter}{Résumé}
 $abstract-fr$
 
 $if(abstract-en)$
 \chapter*{Abstract}
-%\addcontentsline{toc}{chapter}{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
 $abstract-en$
 $endif$
 
@@ -28,12 +22,9 @@ $endif$
 $endif$
 %------------------------------------- Custom Abstract Page ------------------------
 
-
-
 %------------------------------------- Acknowledgements Page -----------------------
 $if(acknowledgements)$
 \chapter*{Remerciements}
-%\addcontentsline{toc}{chapter}{Danksagung}
 $acknowledgements$
 $endif$
 %------------------------------------- Acknowledgements Page -----------------------
@@ -52,21 +43,3 @@ $endif$
 %------------------------------------- Clear page before TOC -----------------------
 \cleardoublepage
 %------------------------------------- Clear page before TOC -----------------------
-
-
-
-%------------------------------------- Use Eisvogel Header/Footer ------------------
-$if(eisvogel)$
-$if(headeralternative)$
-    \newpairofpagestyles{headeralternative}{
-        \clearpairofpagestyles
-        \automark[section]{chapter}
-        \ihead[\headmark]{}
-        \ohead[]{\headmark}
-        \ifoot[\pagemark]{$author$}
-        \ofoot[$author$]{\pagemark}
-    }
-    \pagestyle{headeralternative}
-$endif$
-$endif$
-%------------------------------------- Use Eisvogel Header/Footer ------------------

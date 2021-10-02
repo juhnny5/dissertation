@@ -1,15 +1,4 @@
-# Einleitung
-
-<!--
-*   Worum geht es hier? Was ist das betrachtete Problem bzw. die Fragestellung der Arbeit?
-*   Darstellung der Bedeutung und Relevanz: Warum sollte die Fragestellung bearbeitet werden?
-*   Einordnung in den Kontext
-*   Abgrenzung: Welche Probleme werden im Rahmen der Arbeit *nicht* gelöst?
-*   Zielsetzung: Möglichst genaue Beschreibung der Ziele der Arbeit, etwa erwarteter Nutzen oder wissenschaftlicher Beitrag
-
-Umfang: typisch ca. 8% ... 10% der Arbeit
--->
-
+# Introduction
 
 ## Markdown und -Erweiterungen durch Pandoc
 
