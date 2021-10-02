@@ -11,7 +11,7 @@ SRC                     = md/introduction.md       \
 
 BIBFILE                 = references.bib
 APPENDIX                = md/appendix.md
-TARGET                  = thesis.pdf
+TARGET                  = build/thesis.pdf
 
 TITLEPAGE               = titlepage.tex
 FRONTMATTER             = frontmatter.tex
