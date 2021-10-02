@@ -1,0 +1,36 @@
+---
+title: "Comment réussir à intégrer efficacement la sécurité avec le développement et l'opérationnel?"
+subtitle: "Un mémoire soumit pour satisfaire aux exigences du grade d'expert en cybersécurité (M2)."
+author: "Julien Briault"
+keywords: [Markdown]
+headeralternative: true
+
+date: "02 Octobre 2021"
+
+reviewer1:  "Frédéric Bouzy, Ecole IPSSY"
+reviewer2:  "Alexendre Brianceau, Normation SAS"
+
+
+## optional (mandatory, if english abstract enabled)
+abstract-fr: |
+  Je suis un résumé.
+
+
+## optional
+abstract-en: |
+  This is an english abstract.
+
+
+## optional
+acknowledgements: |
+  Remerciements
+
+## optional
+# restrictionnote: |
+# Notes concernant les restrictions rencontrées
+
+
+## mandatory
+declaration: |
+  Déclaration ...
+---
