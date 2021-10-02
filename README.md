@@ -4,6 +4,16 @@ Ce dépôt contient le code tout comme le texte qui fait référence à mon mém
 
 > *Comment réussir à intégrer efficacement la sécurité au sein du développement et de l'opérationnel?*
 
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table des matières</summary>
+  <ol>
+    <li>
+      <a href="#générer-une-release">Générer une release</a></li>
+    <li><a href="#licence">Licence</a></li>
+  </ol>
+</details>
+
 ## Générer une release
 ### Prérequis
 Pour installer les prérequis:
