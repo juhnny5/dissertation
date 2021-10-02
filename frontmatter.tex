@@ -14,6 +14,12 @@ $if(sources)$
 $sources$
 $endif$
 
+$if(citation)$
+\chapter*{}
+% \addcontentsline{toc}{chapter}{}
+$citation$
+$endif$
+
 $if(abstract-fr)$
 \cleardoublepage
 \begin{minipage}{\linewidth}
