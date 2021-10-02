@@ -21,6 +21,9 @@ Ce dépôt contient le code tout comme le texte qui fait référence à mon mém
                 <a href="générer-le-fichier">Générer le fichier</a>
             </li>
         </ul>
+            <li>
+    <a href="#bibliographie">Bibliographie</a>
+        </li>
     <li>
         <a href="#licence">Licence</a>
     </li>
