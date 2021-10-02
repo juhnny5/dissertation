@@ -1,4 +1,4 @@
-# Mémoire IPSSI
+# Mémoire IPSSI 🚀
 
 Ce dépôt contient le code tout comme le texte qui fait référence à mon mémoire de Mastère 2. Le sujet de ce mémoire est de répondre à la problématique suivante: 
 
@@ -27,11 +27,15 @@ Ce dépôt contient le code tout comme le texte qui fait référence à mon mém
   </ol>
 </details>
 
-## Générer une release
+## Générer une release 🥶
 ### Prérequis
 Pour installer les prérequis:
 ```bash
-sudo pacman -S docker pandoc
+sudo pacman -S docker pandoc go
+```
+En suite, il faut installer l'utilitaire suivant pour modifier certaines données avant le build (fait automatiquement par le **Makefile**):
+```bash
+GO111MODULE=on go get github.com/mikefarah/yq/v4
 ```
 
 ### Builder l'image Docker
@@ -48,7 +52,7 @@ Pour générer le fichier, il faut se rendre à la racine du projet et exécuter
 make clean; make simple
 ```
 
-## Licence
+## Licence 🧐
 ![](img/CCBYSA.png)
 
 Le projet est sous licence **CC BY-SA** (Attribution - Partage dans les Mêmes Conditions).
