@@ -1,1 +1,6 @@
 build/
+
+# Generated tex files
+__backmatter.filled.tex
+__frontmatter.filled.tex
+__titlepage.filled.tex
