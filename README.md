@@ -9,8 +9,21 @@ Ce dépôt contient le code tout comme le texte qui fait référence à mon mém
   <summary>Table des matières</summary>
   <ol>
     <li>
-      <a href="#générer-une-release">Générer une release</a></li>
-    <li><a href="#licence">Licence</a></li>
+        <a href="#générer-une-release">Générer une release</a></li>
+        <ul>
+            <li>
+                <a href="prérequis">Prérequis</a>
+            </li>
+            <li>
+                <a href="builder-l-image-docker">Builder l'image Docker</a>
+            </li>
+            <li>
+                <a href="générer-le-fichier">Générer le fichier</a>
+            </li>
+        </ul>
+    <li>
+        <a href="#licence">Licence</a>
+    </li>
   </ol>
 </details>
 
