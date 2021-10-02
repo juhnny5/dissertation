@@ -1,3 +1,9 @@
+GIT                     = git
+DATE                    = date
+YQ                      = yq
+REVISION                = $(shell $(GIT) rev-parse main)
+BUILDDATE1              = $(shell $(DATE) +%x)
+BUILDDATE2              = $(shell $(DATE) +%T)
 
 WORKDIR                 = $(CURDIR)
 PANDOC                 ?= docker run --rm -v $(WORKDIR):/pandoc pandoc-thesis pandoc
@@ -11,7 +17,7 @@ SRC                     = md/introduction.md       \
 
 BIBFILE                 = references.bib
 APPENDIX                = md/appendix.md
-TARGET                  = build/thesis.pdf
+TARGET                  = build/mémoire-jbriault-$(REVISION).pdf
 
 TITLEPAGE               = titlepage.tex
 FRONTMATTER             = frontmatter.tex
@@ -56,39 +62,42 @@ OPTIONS                += -V book=true
 OPTIONS                += -V titlepage=true
 OPTIONS                += -V toc-own-page=true
 
+# Defines the default target that `make` will to try to make,
+# or in the case of a phony target, execute the specified commands
+# This target is executed whenever we just type `make`
+.DEFAULT_GOAL = help
 
-TEMPLATE_DL_DIR         = .tmp_template_dl
-TEMPLATE_FILES          = $(EISVOGEL_TEMPLATE) $(CLEANTHESIS_TEMPLATE)
+.PHONY: help
+help: ## Print help on Makefile
+	@echo "Please use 'make <target>' where <target> is one of"
+	@echo ""
+	@grep -hE '^[ a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
+		awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-17s\033[0m %s\n", $$1, $$2}'
+	@echo ""
+	@echo "Check the Makefile to know exactly what each target is doing."
 
-## Simple book layout
-simple: $(TARGET)
+simple: $(TARGET) ## Simple book layout (output: build/thesis.pdf)
 
-## Build docker image ("pandoc-thesis") containing pandoc and TeX-Live
-docker:
+docker: ## Build docker image ("pandoc-thesis") containing pandoc and TeX-Live
 	cd docker && make
 
-## Clean-up: Remove temporary (generated) files and download folder
-clean:
-	rm -rf $(TMP) $(TEMPLATE_DL_DIR)
+clean: ## Clean-up: Remove temporary (generated)
+	rm -rf $(TMP)
 
-## Clean-up: Remove also generated thesis and template files
-distclean: clean
-	rm -f $(TARGET) $(TEMPLATE_FILES)
+distclean: clean ## Clean-up: Remove also generated thesis
+	rm -f $(TARGET)
 
-## Download template files
-$(TEMPLATE_FILES):
-	rm -rf $(TEMPLATE_DL_DIR)
-	git clone --quiet --single-branch --branch master --depth 100 $(TEMPLATE_REPO) $(TEMPLATE_DL_DIR)
-	cd $(TEMPLATE_DL_DIR) && git checkout --quiet $(TEMPLATE_VERSION)
-	cp $(TEMPLATE_DL_DIR)/$(TEMPLATE_FILE) ./$(TEMPLATE_FILE)
-	rm -rf $(TEMPLATE_DL_DIR)
+authors: ## Generate or update AUTHORS file
+	bash scripts/docs/generate-authors.sh
 
-## Build thesis
-${TARGET}: $(SRC) $(REFERENCES) $(APPENDIX) $(META) $(BIBFILE) $(TMP)
+${TARGET}: $(SRC) $(REFERENCES) $(APPENDIX) $(META) $(BIBFILE) $(TMP) ## Build thesis
+	$(YQ) eval -i 'with(.date ; . = "$(BUILDDATE1)" | . style="double")' md/metadata.yaml
+	$(YQ) eval -i 'with(.hour ; . = "$(BUILDDATE2)" | . style="double")' md/metadata.yaml
+	$(YQ) eval -i 'with(.revision ; . = "$(REVISION)" | . style="double")' md/metadata.yaml
+
 	$(PANDOC) ${OPTIONS} -o $@ $(SRC) $(REFERENCES) $(APPENDIX)
 
-## Build auxiliary files (title page, frontmatter, backmatter, references)
-$(TMP): __%.filled.tex: %.tex $(META)
+$(TMP): __%.filled.tex: %.tex $(META) ## Build auxiliary files (title page, frontmatter, backmatter, references)
 	$(PANDOC) $(AUX_OPTS) --template=$< --metadata-file=$(META) -o $@ $<
 
 .PHONY: simple cleanthesis docker clean distclean
