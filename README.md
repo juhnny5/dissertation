@@ -52,6 +52,10 @@ Pour générer le fichier, il faut se rendre à la racine du projet et exécuter
 make clean; make simple
 ```
 
+## Bibliographie
+Le format de bibliographie de ce mémoire utilisé est celui de l'université d'[Harvard](https://www.scribbr.fr/citation-des-sources/citer-un-memoire/#).
+La bibliographie est assurée par **BibTex** dans le fichier `references.bib`.
+
 ## Licence
 ![](img/CCBYSA.png)
 
