@@ -1,85 +1,51 @@
 # Introduction
+Lorsque **Patrick Debois**[^1] créé le terme DevOps en 2009, 
+il est très certainement loin de se douter qu'il est l'un des pionnier d'un mouvement 
+dont l'influence ne cessera de s'accroître dans le monde du numérique.
+
+Il n'a pas du tout était pensé, lorsque le DevOps a été définit, d'y instaurer la sécurité. 
+Pour comprendre comment améliorer de manière significative la sécurité lorsque l'on a une équipe DevOps dans son entreprise, il est 
+très important de comprendre en détail, ce qu'est le DevOps, d'où ça vient, etc.
+
+Dans cette introduction, vous trouverez ansi des détails précis sur ce qu'est le DevOps mais aussi de ce qu'il est constitué et des
+techniques qui en découlent.
+
+
+## Qu'est-ce que le DevOps?
+Il est intéressant de remonter dans le temps pour connaître et comprendre les origines du DevOps, comprendre d'où ça vient et qu'est-ce qui a donné naissance à ce mouvement.
+
+### Un peu d'histoire
+
+### Tout démarre d'une problématique
+
+Cette histoire commence en 2007. **Patrick Debois**, homme connu pour être à l'origine du terme "DevOps", était à l'époque *administrateur système*[^2] en tant que consultant sur un projet
+de migration de données sensibles pour le gouvernement Belge.
+
+Durant cette migration, il s'est retrouvé totalement impacté par le manque de cohérence de communication entre les développeurs (dev) et les administrateurs systèmes (ops).
+
+C'est de là où est parti le sujet de réflexion sur lequel il voulait trouver des solutions.
+
+### Création de l'Agile Systems Administration Group
+
+C'est en août 2008, il participe à une conférence agile[^3] de Toronto [@AgileRoots2009] où il va rencontrer le développeur **Andrew Shafer**[^4] qui voulait présenter un sujet qui l'inspirait: "Agile Instructure" [@AgileRoots2009].
+Malheureusement, Andrew Shafer n'a pas pu déroulé son sujet car seul Patrick Debois était présent dans cette salle.
+
+Cela leur a permis de discuter ensemble autour de cette problématique qui rongait Patrick Debois depuis quelques temps.
+C'est suite à cette discussion qu'ils crééent l'**Agile Systems Administration Group**.
+
+## Qu'est-ce que l'approche GitOps?
 ...
 
-## Contexte & état des lieux
+## Qu'est-ce que l'approche CI/CD?
 ...
 
-## Motivation initiale
+### Qu'apporte-t-il?
 ...
 
-## Problèmes soulevés
+## Le réseau, souvent oublié
 ...
 
-## Démarche
-...
-
-## Références dans un texte
-
-Einfach den Bibtex-Key mit einem `@` davor in eckigen Klammern schreiben: Aus `[@Dietz2018]` wird [@Dietz2018] ...
-Mit Seiten- oder Kapitelangabe: Aus `[@Dietz2018, Seite 111]` oder `[@Dietz2018, Kapitel 111]` wird [^1]
-
-[^1]: Ma première note de bas de page ! Ajoutez un [lien](https://www.eff.org/).
-
-## Exemple d'image
-
-![Voici le sous-titre, source: [@Dietz2018] \label{fig:foo}](img/wuppie.png){width=80%}
-
-
-## Source-Code
-
-```{.python caption="The preprocessing step, cf. [@Dietz2018]" #lst:huh}
-def foo():
-  """ Wuppie! """
-  pass
-```
-## Tabellen
-
-| Rechtsbündig | Linksbündig | Default | Zentriert |
-|-------------:|:------------|---------|:---------:|
-|          foo | foo         | foo     |    foo    |
-|          123 | 123         | 123     |    123    |
-|          bar | bar         | bar     |    bar    |
-
-: Tabelle als Markdown-Pipe-Table, vgl. [@Dietz2018] \label{tab:ugh}
-
-
-Leider gibt es derzeit einen Bug (siehe [github.com/Wandmalfarbe/pandoc-latex-template/issues/29](https://github.com/Wandmalfarbe/pandoc-latex-template/issues/29)
-bzw. [github.com/jgm/pandoc/issues/3929](https://github.com/jgm/pandoc/issues/3929)), wodurch die Breite beim Einfärben der
-Tabellenzeilen etwas zu breit wird. Wenn das stört, kann man immer noch normale \LaTeX{}-Tabellen nutzen (siehe
-Tabelle \ref{tab:ieks}).
-
-\begin{longtable}[]{rllc}
-\caption{Tabelle als \LaTeX{}-Table \label{tab:ieks}} \\
-\toprule
-Rechtsbündig & Linksbündig & Default & Zentriert \tabularnewline
-\midrule
-\endhead
-foo & foo & foo & foo \tabularnewline
-123 & 123 & 123 & 123 \tabularnewline
-bar & bar & bar & bar \tabularnewline
-\bottomrule
-\end{longtable}
-
-
-## Querverweise
-
-Querverweise funktionieren in Markdown leider nicht so richtig wie von \LaTeX{} gewohnt.
-
-Hier kann aber einfach auf die ensprechenden \LaTeX{}-Pendants ausgewichen werden:
-
-*   Definieren einer Referenz mit `\label{<id>}`{.latex} (beispielsweise in den jeweiligen Unterschriften
-    unter einer Abbildung/Tabelle/Code-Schnipsel), und
-*   Bezugnahme auf eine Referenz im Text mit `\ref{<id>}`{.latex}.
-
-Vgl. Abbildung \ref{fig:foo} oder Tabelle \ref{tab:ugh} oder Listing \ref{lst:huh} ...
-
-Wer mehr braucht, kann sogenannte Filter^[vgl. [pandoc.org/filters.html](https://pandoc.org/filters.html)
-bzw. [pandoc.org/lua-filters.html](https://pandoc.org/lua-filters.html)] einsetzen, beispielsweise
-[github.com/lierdakil/pandoc-crossref](https://github.com/lierdakil/pandoc-crossref).
-
-
-## Hinweise zum generierten PDF
-
-Das generierte PDF ist für den **doppelseitigen** Ausdruck gedacht. Wie bei einem Buch fangen neue Kapitel
-immer auf einer neuen rechten Seite an, d.h. es kann passieren, dass am Ende eines Kapitels ggf. eine leere
-Seite erzeugt wird. Dies ist durchaus beabsichtigt.
+[^1]: **Patrick Debois** est un ingénieur et développeur, il est l'inventeur du mot [DevOps](http://www.jedi.be/blog/).
+[^2]: Un *administrateur système* est une profession, dans le domaine de l'informatique qui consiste à maintenir et déployer des systèmes informatisés.
+[^3]: L'**agilité**, dans un concept d'entreprise permet de s'adapter plus facilement aux changements, de mieux maîtriser le processus de bout en bout et ainsi d'augmenter la satifaction cliente.
+[^4]: **Andrew Shafer** est un développeur et co-fondateur du projet [Puppet](https://puppet.com/), outil de gestion de configuration.
