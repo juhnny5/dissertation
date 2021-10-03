@@ -8,9 +8,9 @@ csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/fr
 lof: true
 headeralternative: true
 link-citations: true
-date: "02/10/2021"
-hour: "23:51:29"
-revision: "c294d39da90963bc029566fff31e79ec7636df3f"
+date: "03/10/2021"
+hour: "10:47:13"
+revision: "010b7ee1bd4e151e865abf243ffe6aa056358144"
 reviewer1: "Frédéric Bouzy, IPSSI"
 reviewer2: "Alexendre Brianceau, Normation SAS"
 abstract-fr: "La problématique aurait pu être tournée autrement, en effet, l'intérêt de ce mémoire, est de trouver la ou les solution(s) pour réunir les opérationnels (ops), les développeurs (dev) et la sécurité (sec). \n"
@@ -25,6 +25,6 @@ acknowledgements: |
 declaration: |
   Je, Julien Briault, déclare être l'auteur de ce mémoire, d'avoir cité les différentes sources utilisées, en outre, de ne pas avoir réalisé de plagiat d'un autre auteur.
 ---
-date: "02/10/2021"
-hour: "23:51:29"
-revision: "c294d39da90963bc029566fff31e79ec7636df3f"
+date: "03/10/2021"
+hour: "10:47:13"
+revision: "010b7ee1bd4e151e865abf243ffe6aa056358144"

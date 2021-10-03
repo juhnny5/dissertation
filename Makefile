@@ -6,6 +6,7 @@ BUILDDATE1              = $(shell $(DATE) +%x)
 BUILDDATE2              = $(shell $(DATE) +%T)
 
 WORKDIR                 = $(CURDIR)
+CHROMIUM                = chromium
 PANDOC                 ?= docker run --rm -v $(WORKDIR):/pandoc pandoc-thesis pandoc
 META                    = md/metadata.yaml
 
@@ -13,10 +14,16 @@ SRC                     = md/introduction.md       \
                           md/relatedwork.md        \
                           md/concept.md            \
                           md/realisation.md        \
+                          md/devsecops.md          \
+                          md/inreallife.md         \
+                          md/gofurther.md          \
                           md/conclusion.md
 
 BIBFILE                 = references.bib
-APPENDIX                = md/appendix.md
+
+APPENDIX                = md/appendix.md           \
+                          md/annexes/memoire.md
+
 TARGET                  = build/mémoire-jbriault-$(REVISION).pdf
 
 TITLEPAGE               = titlepage.tex
@@ -77,6 +84,9 @@ help: ## Print help on Makefile
 	@echo "Check the Makefile to know exactly what each target is doing."
 
 simple: $(TARGET) ## Simple book layout (output: build/thesis.pdf)
+
+openpdf:
+	$(CHROMIUM) $(TARGET)
 
 docker: ## Build docker image ("pandoc-thesis") containing pandoc and TeX-Live
 	cd docker && make
