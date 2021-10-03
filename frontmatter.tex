@@ -3,54 +3,64 @@
 \renewcommand{\listfigurename}{Table des figures}
 
 $if(licence)$
-\chapter*{Licence}
-\addcontentsline{toc}{chapter}{Licence}
-$licence$
+    \chapter*{Licence}
+    \addcontentsline{toc}{chapter}{Licence}
+    $licence$
 $endif$
 
 $if(sources)$
-\chapter*{Sources}
-\addcontentsline{toc}{chapter}{Sources}
-$sources$
+    \chapter*{Sources}
+    \addcontentsline{toc}{chapter}{Sources}
+    $sources$
 $endif$
 
 $if(citation)$
-\chapter*{}
-% \addcontentsline{toc}{chapter}{}
-$citation$
+    \chapter*{}
+    % \addcontentsline{toc}{chapter}{}
+    $citation$
+$endif$
+
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords---}} #1}
+$if(keywords-fr)$
+    pdfkeywords={$for(keywords-fr)$$keywords-fr$$sep$; $endfor$},
 $endif$
 
 $if(abstract-fr)$
-\cleardoublepage
+\clearpage
 \begin{minipage}{\linewidth}
-
-\chapter*{Résumé}
-\addcontentsline{toc}{chapter}{Résumé}
-\providecommand{\keywords}[1]{\textbf{\textit{Keywords---}} #1}
-$abstract-fr$
-
-\vspace*{1cm}
-
-$if(keywords-fr)$
-    \keywords{$keywords-fr$}
+    
+    \chapter*{Résumé}
+    \addcontentsline{toc}{chapter}{Résumé}
+    $abstract-fr$
+    
+    \vspace*{1cm}
+    
+    $if(keywords-fr)$
+        \keywords{$keywords-fr$}
+    $endif$
+    
+\end{minipage}
+\clearpage
 $endif$
 
 $if(abstract-en)$
-\chapter*{Abstract}
-\addcontentsline{toc}{chapter}{Abstract}
-$abstract-en$
+    \clearpage
+    \begin{minipage}{\linewidth}
+    \chapter*{Abstract}
+    \addcontentsline{toc}{chapter}{Abstract}
+    $abstract-en$
 
-\vspace*{1cm}
+    \vspace*{1cm}
 
-$if(keywords-en)$
-    \keywords{$keywords-en$}
+    $if(keywords-en)$
+        \keywords{$keywords-en$}
+    $endif$
+
+    \end{minipage}
+    \clearpage
 $endif$
 
-$endif$
 
-\end{minipage}
-\cleardoublepage
-$endif$
 
 $if(acknowledgements)$
 \chapter*{Remerciements}
