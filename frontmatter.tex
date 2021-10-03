@@ -26,12 +26,26 @@ $if(abstract-fr)$
 
 \chapter*{Résumé}
 \addcontentsline{toc}{chapter}{Résumé}
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords---}} #1}
 $abstract-fr$
+
+\vspace*{1cm}
+
+$if(keywords-fr)$
+    \keywords{$keywords-fr$}
+$endif$
 
 $if(abstract-en)$
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
 $abstract-en$
+
+\vspace*{1cm}
+
+$if(keywords-en)$
+    \keywords{$keywords-en$}
+$endif$
+
 $endif$
 
 \end{minipage}

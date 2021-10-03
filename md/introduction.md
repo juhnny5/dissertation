@@ -1,7 +1,16 @@
 # Introduction
 ...
 
-## Etat des lieux
+## Contexte & état des lieux
+...
+
+## Motivation initiale
+...
+
+## Problèmes soulevés
+...
+
+## Démarche
 ...
 
 ## Références dans un texte

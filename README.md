@@ -4,6 +4,8 @@ Ce dépôt contient le code tout comme le texte qui fait référence à mon mém
 
 > *Comment réussir à intégrer efficacement la sécurité au sein d'une équipe DevOps?*
 
+<center><img src="img/MEMOIRE.png" alt="Mémoire IPSSI"></center>
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table des matières</summary>
@@ -12,7 +14,7 @@ Ce dépôt contient le code tout comme le texte qui fait référence à mon mém
         <a href="#générer-une-release">Générer une release</a></li>
         <ul>
             <li>
-                <a href="prérequis">Prérequis</a>
+                <a href="prérequis">Prérequis</a>  
             </li>
             <li>
                 <a href="builder-l-image-docker">Builder l'image Docker</a>

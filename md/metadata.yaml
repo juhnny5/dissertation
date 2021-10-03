@@ -3,16 +3,17 @@ title: "Comment réussir à intégrer efficacement la sécurité au sein d'une �
 subtitle: "Un mémoire soumit pour satisfaire aux exigences du grade d'expert en cybersécurité (M2)."
 author: "Julien Briault"
 email: "<contact[at]jbriault[point]fr"
-keywords: [Markdown]
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/french2.csl"
 lof: true
 headeralternative: true
 link-citations: true
 date: "03/10/2021"
-hour: "10:47:13"
-revision: "010b7ee1bd4e151e865abf243ffe6aa056358144"
+hour: "12:27:56"
+revision: "3ae96460a6d8d7dc53cb692638a336f39ebb7e43"
 reviewer1: "Frédéric Bouzy, IPSSI"
-reviewer2: "Alexendre Brianceau, Normation SAS"
+reviewer2: "Alexandre Brianceau, Normation SAS"
+keywords-fr: [Markdown]
+keywords-en: [Markdown]
 abstract-fr: "La problématique aurait pu être tournée autrement, en effet, l'intérêt de ce mémoire, est de trouver la ou les solution(s) pour réunir les opérationnels (ops), les développeurs (dev) et la sécurité (sec). \n"
 abstract-en: |
   This is an english abstract.
@@ -22,9 +23,16 @@ citation: |
   *"L'homme et sa sécurité doivent constituer la première préoccupation de toute aventure technologique"* - **Albert Einstein**
 acknowledgements: |
   Je tiens à remercier toutes les personnes qui ont contribué au succès de mon stage et qui m'ont aidée lors de la rédaction de ce mémoire.
+  Plus exactement, je tiens à remercier en premier lieu *Frédéric* BOUZY pour son encadrement sans faille ansi que pour les nombreuses discussions que nous avons pu avoir.
+
+  Je remercie *Alexandre* BRIANCEAU, président de la société **Normation SAS**, pour m'avoir accueilli au sein de l'équipe *Customer Operations*.
+  Mes ermerciements s'adressent à l'ensemble de l'équipe *Customer Operations*, pour leur accueil chaleureux. Merci à *Nicolas* CHARLES et *Benoît* PECCATTE, avec qui j'ai travaillé tout au long de cette année d'alternance.
+
+  Merci pour leur bonne humeur et bienveillance quotidienne. Je remercie une nouvelle fois *Alexandre* BRIANCEAU pour ses précieux conseils concernant les différents points abordés dans ce mémoire.
+  Et pour terminer, je tiens à remercier l'ensemble de l'entreprise **Normation SAS** pour m'avoir fait confiance tout au long de mon alternance, de m'avoir donné l'opportunité d'approfondir mes connaissances, de les développer et de les appliquer.
 declaration: |
   Je, Julien Briault, déclare être l'auteur de ce mémoire, d'avoir cité les différentes sources utilisées, en outre, de ne pas avoir réalisé de plagiat d'un autre auteur.
 ---
 date: "03/10/2021"
-hour: "10:47:13"
-revision: "010b7ee1bd4e151e865abf243ffe6aa056358144"
+hour: "12:27:56"
+revision: "3ae96460a6d8d7dc53cb692638a336f39ebb7e43"
