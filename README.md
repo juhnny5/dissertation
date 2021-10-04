@@ -2,7 +2,7 @@
 
 Ce dépôt contient le code tout comme le texte qui fait référence à mon mémoire de Mastère 2. Le sujet de ce mémoire est de répondre à la problématique suivante: 
 
-> *Comment réussir à intégrer efficacement la sécurité au sein d'une équipe DevOps?*
+> *Comment placer efficacement la sécurité dans une approche DevOps?*
 
 <center><img src="img/MEMOIRE.png" alt="Mémoire IPSSI"></center>
 
