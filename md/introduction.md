@@ -108,10 +108,18 @@ Vous voyez où je veux en venir? En effet, je vais pouvoir me baser de ce même 
 
 ### Kaizen : a la recherche de l'amélioration continue
 
-Je suis du texte...
+Le **Lean Startup** est très fortement inspiré du **Kaizen**, ce procédé industriel qui s'est développé au Japon, dans la reconstruction qui a fait 
+suite à la seconde guerre mondiale. 
+
+Le mot **Kaizen** est issu de la fusion de deux mots japonais, le premier *kai* et le second, comme on peut le déduire facilement, *zen* qui signifient respectivement *changement* et *bon*.
 
 ![Le Kaizen en caractères japonais](img/KAIZEN.png){width=30%}
 
+Ce principe est très important pour comprendre comment apporter la sécurité dans une démarche *DevOps* car il permet d'apporter des bases solides pour ce que l'on va appeler par la suite **CI/CD**.
+
+## Le mémoire dans tout ça
+
+Maintenant qu'avec cette introduction j'ai pu apporter plus d'informations sur le fonctionnement du DevOps et d'où ça vient, je vais en premier lieu, déterminer les différentes parties du DevOps (de quoi il est constitué). En second temps, je vais parler des enjeux et impacts sur le *busines*, ensuite je viendrais une solution établie et je viendrais expliquer pourquoi j'ai fait le choix de cette solution.
 
 [^1]: **Patrick Debois** est un ingénieur et développeur, il est l'inventeur du mot [DevOps](http://www.jedi.be/blog/).
 [^2]: Un *administrateur système* est une profession, dans le domaine de l'informatique qui consiste à maintenir et déployer des systèmes informatisés.
