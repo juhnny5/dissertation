@@ -10,18 +10,19 @@ CHROMIUM                = chromium
 PANDOC                 ?= docker run --rm -v $(WORKDIR):/pandoc pandoc-thesis pandoc
 META                    = md/metadata.yaml
 
-SRC                     = md/introduction.md       \
-                          md/relatedwork.md        \
-                          md/concept.md            \
-                          md/realisation.md        \
-                          md/devsecops.md          \
-                          md/inreallife.md         \
-                          md/gofurther.md          \
+SRC                     = md/01_introduction.md       \
+                          md/02_decortiquer.md        \
+                          md/03_business-impact.md    \
+                          md/04_scenarios.md          \
+                          md/realisation.md           \
+                          md/devsecops.md             \
+                          md/inreallife.md            \
+                          md/gofurther.md             \
                           md/conclusion.md
 
 BIBFILE                 = references.bib
 
-APPENDIX                = md/appendix.md           \
+APPENDIX                = md/annexes.md           \
                           md/annexes/memoire.md
 
 TARGET                  = build/mémoire-jbriault-$(REVISION).pdf

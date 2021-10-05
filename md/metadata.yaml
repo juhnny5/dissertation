@@ -1,15 +1,16 @@
 ---
-title: "Comment placer efficacement la sécurité dans une approche DevOps?"
+title: "Comprendre pour mieux placer efficacement la sécurité dans une approche DevOps"
 subtitle: "Un mémoire soumit pour satisfaire aux exigences du grade d'expert en cybersécurité (M2)."
 author: "**Julien BRIAULT**"
 email: "<contact[at]jbriault[point]fr"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/french2.csl"
 lof: true
+urlcolor: "blue"
 headeralternative: true
 link-citations: true
 date: "05/10/2021"
-hour: "08:44:27"
-revision: "1009d9dc16bf75a33fb8b1e53963f438b17852e1"
+hour: "15:27:40"
+revision: "795a4ee0c80d4fb986d66c0a7cb6c85d70bd78cb"
 reviewer1: "**Frédéric BOUZY**, IPSSI"
 reviewer2: "**Alexandre BRIANCEAU**, Normation SAS"
 keywords-fr:
@@ -35,5 +36,5 @@ declaration: |
   Je, Julien Briault, déclare être l'auteur de ce mémoire, d'avoir cité les différentes sources utilisées, en outre, de ne pas avoir réalisé de plagiat d'un autre auteur.
 ---
 date: "05/10/2021"
-hour: "08:44:27"
-revision: "1009d9dc16bf75a33fb8b1e53963f438b17852e1"
+hour: "15:27:40"
+revision: "795a4ee0c80d4fb986d66c0a7cb6c85d70bd78cb"

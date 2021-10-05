@@ -3,6 +3,8 @@
 Dans cette partie, nous allons décortiquer les différentes parties constituantes du DevOps, 
 ce qui permettra à terme de ce mémoire d'apporter des réponses claires pour chacune d'entre elles.
 
+Nous vous apporterons dans cette section des ressources essentiels développer le sujet de ce mémoire.
+
 ## Un peu de méthodologie
 
 La méthode que j'ai utilisé consiste à lister les différentes parties connues d'une démarche DevOps afin de mieux identifier pour chaque sous-parties,
@@ -23,13 +25,17 @@ La méthode **Scrum** définit la manière dont les membres d'une équipe doiven
 
 Dans les faits, les pratiques **Scrum** utilisent des *workflows* clés, une terminologie spécifique et des rôles désignés.
 
+Le livre "*A Scrum Book: The Spirit of the Game*"[@Scrum2019] de **Jim COPLIEN** et **Jeff SUTHERLAND** a permit d'apporter une vision plus claire de ce que c'est réellement et de comprendre comment il est appliqué au DevOps pour mieux sécurisé le tout par la suite. Cette logique a été appliquée aux différentes méthodologies gravitants autour du DevOps.
+
 #### Un Kanban ?
 
-La méthode Kanban, est tout aussi importante que le scrum, développée initialement par *Toyota*[@Toyota2019] [^14] pour améliorer l'efficacité de ses usines de montage (dans l'après guerre, confère le *Lean Startup* et le *Kaizen*), la méthode Kanban repose sur un suivi des travaux en cours (les TEC) dans un projet logiciel à l'aide d'un tableau Kanban.
+La méthode Kanban, est tout aussi importante que le scrum, développée initialement par *Toyota*[@Toyota2019] [^14] pour améliorer l'efficacité de ses usines de montage (dans l'après guerre, confère le *Lean Startup* et le *Kaizen*), la méthode Kanban repose sur un suivi des travaux en cours (les TEC) dans un projet logiciel à l'aide d'un tableau Kanban. Vous trouverez en complément l'excellent livre "*Kanban: Successful Evolutionary Change for Your Technology Business*"[@Kanban2010] de **David J. ANDERSON** qui explique en détail ce qu'est la méthode Kanban, comment la mettre en place, pourquoi l'utiliser, etc.
 
 #### De l'agile ?
 
 Et pour terminer avec la méthodologie DevOps, la méthode agile préconise des cycles de développement logiciel plus courts, à l'encontre des méthodes dites "classiques" comme la méthode "*en cascade*" qui est bien plus chronophage. La méthode *agile* dans les faits offre une meilleure réactivité face à l'évolution des besoins en documentant les exigences sous forme de "*user stories*", en organisant des réunions de manière quotidiennes (les fameux "*daily standups*") et en intégrant les retours des différents clients de manière continue.
+
+En complément de nos recherches, vous trouverez deux livres excellent, traitant de la méthode Agile. Le premier se nomme "*Coaching Agile Teams: A Companion for ScrumMasters*"[@Agile1] de **Lyssa ADKINS** et le second "*Agile Retrospectives: Making Good Teams Great*"[@Agile2] de **Esther DERBY**.
 
 ## Vue d'ensemble de la chaîne d'outils DevOps
 
