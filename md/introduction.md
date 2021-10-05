@@ -64,7 +64,7 @@ Beaucoup de déclinaisons et de sous-mouvements se sont créés, je viendrais à
 
 Comme vous l'avez compris, à l'origine de cette mouvance, il n'a pas été question d'y intégrer la sécurité d'un point de vue stricte du terme.
 
-Justement, l'intérêt que je vois dans ce mémoire est d'expliquer comment le faire, quels outils utilisés, quelle méthodologie, etc.
+Justement, l'intérêt que nous voyons dans ce mémoire est d'expliquer comment le faire, quels outils utilisés, quelle méthodologie, etc.
 
 ## Que permet de le DevOps?
 
@@ -104,7 +104,7 @@ La mesure permet d'apporter de manière importante de la méthode, reléguant l'
 
 Tester (construire) et mesurer est important, mais pour aller au bout de la démarche, il est très important de formaliser les apprentissages qui découlent de cette approche.
 Les anglo-saxons appelent ça "*test and learn*". Pour que ça puisse être possible, il faut savoir prendre du recul, analyser les actions et ce qui a été mesuré.
-Vous voyez où je veux en venir? En effet, je vais pouvoir me baser de ce même principe du Lean pour commencer l'ajout de la sécurité au sein d'une approche DevOps.
+Vous voyez où nous souhaitons en venir? En effet, nous allons pouvoir se baser de ce même principe du Lean pour commencer l'ajout de la sécurité au sein d'une approche DevOps.
 
 ### Kaizen : a la recherche de l'amélioration continue
 
@@ -119,7 +119,7 @@ Ce principe est très important pour comprendre comment apporter la sécurité d
 
 ## Le mémoire dans tout ça
 
-Maintenant qu'avec cette introduction j'ai pu apporter plus d'informations sur le fonctionnement du DevOps et d'où ça vient, je vais en premier lieu, déterminer les différentes parties du DevOps (de quoi il est constitué). En second temps, je vais parler des enjeux et impacts sur le *busines*, ensuite je viendrais une solution établie et je viendrais expliquer pourquoi j'ai fait le choix de cette solution.
+Maintenant qu'avec cette introduction nous avons pu apporter plus d'informations sur le fonctionnement du DevOps et d'où ça vient, nous allons en premier lieu, déterminer les différentes parties du DevOps (de quoi il est constitué). En second temps, nous allons parler des enjeux et impacts sur le *busines*, ensuite nous en viendrois à une solution établie et et pour terminer, nous expliquerons pourquoi avoir fait le choix de cette solution.
 
 [^1]: **Patrick Debois** est un ingénieur et développeur, il est l'inventeur du mot [DevOps](http://www.jedi.be/blog/).
 [^2]: Un *administrateur système* est une profession, dans le domaine de l'informatique qui consiste à maintenir et déployer des systèmes informatisés.
