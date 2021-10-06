@@ -10,10 +10,13 @@ CHROMIUM                = chromium
 PANDOC                 ?= docker run --rm -v $(WORKDIR):/pandoc pandoc-thesis pandoc
 META                    = md/metadata.yaml
 
-SRC                     = md/01_introduction.md       \
+SRC                     = md/00_introduction.md       \
+                          md/01_origines.md           \
                           md/02_decortiquer.md        \
                           md/03_business-impact.md    \
                           md/04_scenarios.md          \
+                          md/05_exigences.md          \
+                          md/06_architecture.md       \
                           md/realisation.md           \
                           md/devsecops.md             \
                           md/inreallife.md            \
@@ -23,7 +26,8 @@ SRC                     = md/01_introduction.md       \
 BIBFILE                 = references.bib
 
 APPENDIX                = md/annexes.md           \
-                          md/annexes/memoire.md
+                          md/annexes/memoire.md   \
+                          md/annexes/dread.md
 
 TARGET                  = build/mémoire-jbriault-$(REVISION).pdf
 
@@ -50,7 +54,7 @@ OPTIONS                += --citeproc
 OPTIONS                += -M bibliography=$(BIBFILE)
 OPTIONS                += -M link-citations=true
 OPTIONS                += --listings
-OPTIONS                += -V documentclass=scrbook
+OPTIONS                += -V documentclass=report
 OPTIONS                += -V papersize=a4
 OPTIONS                += -V fontsize=11pt
 OPTIONS                += -V classoption:open=right

@@ -1,4 +1,4 @@
-## Réalisation du mémoire
+## Mise en application : réalisation du mémoire
 La réalisation de ce mémoire résulte d'un travail de longue haleine.
 J'ai commencé par identifier les tâches qui pourrait me coûter du temps. Tout temps lors de l'écriture d'un mémoire est précieux.
 

@@ -1,4 +1,4 @@
-# Introduction
+# Analyse et compréhension des concepts d'origine
 
 Lorsque **Patrick Debois**[^1] créé le terme DevOps en 2009, 
 il est très certainement loin de se douter qu'il est l'un des pionnier d'un mouvement 
