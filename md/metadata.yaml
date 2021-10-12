@@ -9,9 +9,9 @@ lot: true
 urlcolor: "blue"
 headeralternative: true
 link-citations: true
-date: "06/10/2021"
-hour: "20:36:40"
-revision: "2974416814ba24805b9a3843465309d284f053b2"
+date: "09/10/2021"
+hour: "11:54:48"
+revision: "339e3e6b0e3ff0f847bf44789725f06112f0ba0d"
 reviewer1: "**Frédéric BOUZY**, IPSSI"
 reviewer2: "**Alexandre BRIANCEAU**, Normation SAS"
 keywords-fr:
@@ -21,7 +21,7 @@ keywords-en:
 abstract-fr: "Lorsque **Patrick Debois** créé le terme DevOps en 2009, \nil était très certainement loin de s'imaginer qu'il allait devenir l'un des pionniers \nd'un mouvement dont l'influence ne cessera de s'accroître dans le monde numérique.\n\nCe mouvement qui désigner une approche fédérée du développement informatique (dev/build) de l'opérationnel (run/ops).\n\nEn appliquant une démarche DevOps, les entreprises, plus particulièrement les services informatiques de celles-ci sont \naujourd'hui à même de poursuivre leurs activités existant avec une efficacité accrue.\n\nLe seul souci, c'est que dans cette idée initiale, il fait nul référence de sécurité. \nC'est là où fait l'apparition du terme *DevSecOps*, vous l'aurez deviné, le but est ainsi de reprendre le principe du DevOps et d'y intégrer l'aspect sécuritaire.\n\nCe mémoire vient apporter une vision détaillée de comment répondre à la problématique de manière efficace tout en \nrappelant, pour la compréhension de tous, des différentes parties prenantes.\n\nNous verrons quels sont les bénéfices d'une telle pratique, les différents outils utilisables. Nous en découvrirons plus sur le **DoD Enterprise DevSecOps Reference Design**, ce document de référence\nproduit par le département de la Défense américain. Ce que cette ressource définit, ce qu'elle apporte, etc.\n"
 abstract-en: "When **Patrick Debois** created the term DevOps in 2009, \nhe was certainly far from imagining that he would become one of the pioneers of a movement \nof a movement whose influence will continue to grow in the digital world.\n\nThis movement which designates a federated approach to IT development (dev/build) and operations (run/ops).\n\nBy applying a DevOps approach, companies, and more specifically their IT departments, are now able to \nare now able to continue their existing activities with increased efficiency.\n\nThe only concern is that in this initial idea, there is no reference to security. \nThis is where the term *DevSecOps* appears, you will have guessed it, the goal is thus to take the principle of DevOps and to integrate the security aspect.\n\nThis thesis brings a detailed vision of how to answer the problem in an efficient way while \nreminding, for the understanding of all, the different stakeholders.\n\nWe will see what the benefits of such a practice are and the different tools that can be used. We will discover more about the **DoD Enterprise DevSecOps Reference Design**, this reference document\nproduced by the US Department of Defense. What this resource defines, what it brings, etc.\n"
 licence: "![](img/CCBYSA.png)\n\nLe contenu de ce mémoire est (sauf signalement contraire), soumit à la licence **CC BY-SA FR 2.0** [@CCBYSA]. \nCette licence regroupe les obligations d'attribution de l'auteur, d'usage non commercial et de partage dans les mêmes conditions (en utilisant la même licence).\nEn outre, vous êtes libre de partager ce fichier et d'utiliser ce fichier, tant que celui-ci ne se retrouve pas face à l'un des critères annoncés.\n\nA l'inverse des licences de type *copyleft* [@Copyleft1996], cette licence dite permissive (ou *open source* [@OpenSourceDefinition]) se veut être le plus proche possible du domaine public.\nL'auteur qui place son oeuvre sous une licence permissive renonce à tous ses droits sur celle-ci.\n\nDans le droit français, le droit moral impose de mentionner le nom de l'auteur pour chaque utiliser d'une oeuvre [@DroitFR2018].\nCette réglementation n'est pas en vigueur dans certains pays (aux Etats-Unis, par exemple).\n"
-sources: "Comme annoncé ci-dessus, ce mémoire est disponible de manière libre et peut être modifié par n'importe qui. Pour que cela soit possible, le code source du projet (du mémoire et des outils annexes) est stocké dans un dépôt **Git**. \n\nPour récupérer les sources et constuire le projet, veuillez suivre le fichier **README** présent dans le dépôt [https://github.com/julienbriault/dissertation](https://github.com/julienbriault/dissertation)."
+sources: "Comme annoncé ci-dessus, ce mémoire est disponible de manière libre et peut être modifié par n'importe qui. \nPour que cela soit possible, le code source du projet (du mémoire et des outils annexes) est stocké dans un dépôt **Git**. \n\nPour récupérer les sources et constuire le projet, veuillez suivre le fichier **README** \nprésent dans le dépôt [https://github.com/julienbriault/dissertation](https://github.com/julienbriault/dissertation).\n\nCette démarche s'inscrit dans le souhait de partager l'information à chacun, que n'importe quelle personne, que les sources soient ouvertes et d'avoir un document de recherche durable.\n"
 citation: |
   *"L'homme et sa sécurité doivent constituer la première préoccupation de toute aventure technologique"* - **Albert Einstein**
 acknowledgements: |
@@ -36,6 +36,6 @@ acknowledgements: |
 declaration: |
   Je, Julien Briault, déclare être l'auteur de ce mémoire, d'avoir cité les différentes sources utilisées, en outre, de ne pas avoir réalisé de plagiat d'un autre auteur.
 ---
-date: "06/10/2021"
-hour: "20:36:40"
-revision: "2974416814ba24805b9a3843465309d284f053b2"
+date: "09/10/2021"
+hour: "11:54:48"
+revision: "339e3e6b0e3ff0f847bf44789725f06112f0ba0d"

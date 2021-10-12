@@ -88,7 +88,7 @@ help: ## Print help on Makefile
 	@echo ""
 	@echo "Check the Makefile to know exactly what each target is doing."
 
-simple: $(TARGET) ## Simple book layout (output: build/thesis.pdf)
+simple: $(TARGET) ## Simple book layout (output: build/xxx.pdf)
 
 openpdf:
 	$(CHROMIUM) $(TARGET)
@@ -99,18 +99,22 @@ docker: ## Build docker image ("pandoc-thesis") containing pandoc and TeX-Live
 clean: ## Clean-up: Remove temporary (generated)
 	rm -rf $(TMP)
 
-distclean: clean ## Clean-up: Remove also generated thesis
+distclean: clean ## Clean-up: Remove also generated dissertation
 	rm -f $(TARGET)
+	rm -f build/slides.pdf
 
 authors: ## Generate or update AUTHORS file
 	bash scripts/docs/generate-authors.sh
 
-${TARGET}: $(SRC) $(REFERENCES) $(APPENDIX) $(META) $(BIBFILE) $(TMP) ## Build thesis
+${TARGET}: $(SRC) $(REFERENCES) $(APPENDIX) $(META) $(BIBFILE) $(TMP) ## Build dissertation
 	$(YQ) eval -i 'with(.date ; . = "$(BUILDDATE1)" | . style="double")' $(META)
 	$(YQ) eval -i 'with(.hour ; . = "$(BUILDDATE2)" | . style="double")' $(META)
 	$(YQ) eval -i 'with(.revision ; . = "$(REVISION)" | . style="double")' $(META)
 
 	$(PANDOC) ${OPTIONS} -o $@ $(SRC) $(REFERENCES) $(APPENDIX)
+
+slides-pdf: ## Generate slides in PDF format
+	$(PANDOC) -t beamer -s slides/main.md -o build/slides.pdf
 
 $(TMP): __%.filled.tex: %.tex $(META) ## Build auxiliary files (title page, frontmatter, backmatter, references)
 	$(PANDOC) $(AUX_OPTS) --template=$< --metadata-file=$(META) -o $@ $<

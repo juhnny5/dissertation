@@ -19,7 +19,7 @@ Il peut arriver que dans certains cas de figure, qu'ils s'avèrent *contre-produ
 
 Aux antipodes des processus de sécurité habituels, le DevOps et le contexte de business qui l'irrigue sont régis par de nouvelles règles de jeu, de méthodologie de gestion de projet. Ainsi les concepts habituels de sécurité sont complètement bousculés et c'est donc pour cela qu'il a fallut partir sur une autre méthodologie.
 
-### Le STRIDE & DREAD, c'est plus qu'éprouvé!
+### Le STRIDE & DREAD, plus qu'éprouvé!
 
 La modélisation des menaces et l'analyse des risques est sensiblement la même chose. La modélisation des menaces STRIDE est un outil très important dans l'arsenal d'un expert en sécurité au sein d'une équipe DevOps. Effectivement, la modélisation des menaces permet de fournir aux équipes de sécurité un cadre pratique pour faire face à une menace.
 
