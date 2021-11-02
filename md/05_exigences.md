@@ -7,7 +7,7 @@ d'un document texte élaboré en concertation avec un consultant de la sécurit�
 
 ## Les questions posées
 
-Lors de l'analyse des exigences de sécurité (en rapport avec le fameux *DICT*), nous nous sommes confrontés à plusieurs questionnement:
+Lors de l'analyse des exigences de sécurité (en rapport avec le fameux *DICT*), nous nous sommes confrontés à plusieurs questionnement :
 
 - **Est-ce testable ?** Pouvons-nous tester cette exigence dans l'application finale ? « Soyez en sécurité » n'est pas une exigence vérifiable. « Encoder toutes les sorties fournies par l'utilisateur » est.
 - **Est-ce mesurable ?** Lorsque nous testons cela, pouvons-nous déterminer la couverture et l'efficacité ?

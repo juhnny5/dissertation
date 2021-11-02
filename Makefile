@@ -17,8 +17,13 @@ SRC                     = md/00_introduction.md       \
                           md/04_scenarios.md          \
                           md/05_exigences.md          \
                           md/06_architecture.md       \
-                          md/realisation.md           \
-                          md/devsecops.md             \
+                          md/07_codereview.md       \
+                          md/08_secenv.md       \
+                          md/09_monitoring_audit.md           \
+                          md/10_cloud.md           \
+                          md/11_containers.md           \
+                          md/12_education.md           \
+                          md/13_devsecops.md           \
                           md/inreallife.md            \
                           md/gofurther.md             \
                           md/conclusion.md
@@ -27,7 +32,8 @@ BIBFILE                 = references.bib
 
 APPENDIX                = md/annexes.md           \
                           md/annexes/memoire.md   \
-                          md/annexes/dread.md
+                          md/annexes/dread.md     \
+                          md/annexes/golangandsonar.md
 
 TARGET                  = build/mémoire-jbriault-$(REVISION).pdf
 

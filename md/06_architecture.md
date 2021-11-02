@@ -21,7 +21,7 @@ Aux antipodes des processus de sécurité habituels, le DevOps et le contexte de
 
 ### Le STRIDE & DREAD, plus qu'éprouvé!
 
-La modélisation des menaces et l'analyse des risques est sensiblement la même chose. La modélisation des menaces STRIDE est un outil très important dans l'arsenal d'un expert en sécurité au sein d'une équipe DevOps. Effectivement, la modélisation des menaces permet de fournir aux équipes de sécurité un cadre pratique pour faire face à une menace.
+La *modélisation des menaces* et l'*analyse des risques* est sensiblement la même chose. La modélisation des menaces STRIDE est un outil très important dans l'arsenal d'un expert en sécurité au sein d'une équipe DevOps. Effectivement, la modélisation des menaces permet de fournir aux équipes de sécurité un cadre pratique pour faire face à une menace.
 
 STRIDE[@STRIDE] se veut être une méthodologie éprouvée développée par **Microsoft**[^26] dans les années 1990 (par *Loren Kohnfelder*[^28] & *Praerit Garg*[^27]) pour accroître la compréhension des risques et menaces autour d'une application.
 
@@ -53,7 +53,54 @@ Ainsi le modèle DREAD nécessite d'attribuer une noute de un à trois (*low*, *
 
 ### OCTAVE Allegro, la méthodologie nouvelle génération!
 
+OCTAVE Allegro[@OCTAVE2007] est un *framework*[^29] pour la gestion des risques, ce framework est la troixième et dernière version d'**OCTAVE** (pour *Operationally Critical Threat, Asset and Vulnerability Evaluation*). A l'origine **OCTAVE** fut développer par le *CERT Survivable Enterprise Management Team*, cette méthodologie permet d'identifier et d'évaluer les risques de sécurité associés aux systèmes d'informations.
+
+Plus exactement :
+
+- De développer des critères qualitatifs d'évaluation de risque.
+- D'identifier les actifs.
+- D'identifier les vulnérabilités et les menaces.
+- Et pour terminer, d'évaluer les conséquences sur les objectifs d'affaires si une attaque réussit.
+
+Il faut voir le *CERT OCTAVE* comme une famille de processus visant à remplacer le combo **STRIDE/DREAD**.
+
+Dans cette famille, on y retrouve donc plusieurs version qui sont à utiliser en fonction de notre organisation.
+
+La première est **OCTAVE-S v1.0** qui est destinée aux organisations de taille moyenne (~100 employé(e)s), dans lesquelles nous avons une équipe d'analystes, une excellente connaissance de l'organisation mais une connaissance technique limitée (par exemple, que l'on ne connait pas quel type de serveur web est en place).
+
+La seconde est **OCTAVE v2.0** est plutôt destinée aux grandes organisations (~300 et + d'employé(e)s), on va y retrouver une hiérarchie (pour les équipes IT) à plusieurs niveaux, une infrastructure IT interne et une connaissance technique importante (avec une évaluation des vulnérabilités). Cette méthodologie n'est pas totalement compatible avec le DevOps qui, de plus en plus
+vise à externaliser certaines informations (via le Cloud par exemple).
+
+Et pour temriner, nous retrouvons **OCTAVE Allegro** qui permet une évaluation rapide des risques (ce qui est très important dans une démarche DevOps, nous recherchons à être efficace et rapide) avec une excellente connaissance de l'organisation mais une connaissance technique limitée.
+
+Il est important de souligner que pour placer efficacement cette méthode, il est important de respecter les 8 grandes étapes qui sont les suivantes :
+
+- Etablir les critères d'évaluation du ou des risques
+  * Définir un ensemble de mesures qui permettra d'évaluer l'impact des meances sur les objectifs d'affaires (lien avec le BIA précédemment cité) afin de déterminer le niveau de risque.
+  * Prioriser les mesures d'impact de la plus importante (5) à la moins importante (1).
+- Etablir les profils des actifs informationnels
+- Identifier les intervenants et les contenants
+  * Identifier les contenants techniques (internes et externes, les serveurs d'application par exemple).
+  * Identifier les lieux physiques (internes et extenes, où sont stockés les copies des sauvegardes).
+  * Identifier les intervenant (personnes internes et externes).
+- Identifier les domaines de préoccupation
+  * Décrir une situation pouvant affecter un actif
+- Identifier les scénarios de menaces
+  * On y retrouve la menace, les scénarios d'abus/d'une menace et l'arbre de menaces permettant de visualiser un ensemble de scénarios de menace. 
+- Identifier les risques
+  * Pour chaque scénario d'abus ou de menace identifié, déterminer les conséquences. 
+- Analyser les risques
+  * Déterminer la valeur qualitative de l'imapct d'une menace pour l'organisation (voir annexes). 
+- Choisir une approche face aux risques
+  * il faut *accepter* (fatalité), l'*atténuer* (réduire l'impact d'une attaque réussie), *retarder la décision* (plus d'information sont nécessaires, continuer l'analyse), *transférer* (assurance).
+
 ### Le choix effectué
+
+La gestion des risques et l'analyse des risques est une étapes assez laborieuse mais primordiale, car plus de la moitié des problèmes de sécurité sont malheureusement la résultante de problèmes d'architecture. Ainsi, la méthode **OCTAVE Allegro** s'appraîte au mieux au contexte DevOps en apportant des réponses tout en étant adapté au contexte.
+
+Dans le DevOps, l'architecture peut évoluer drastiquement au gré de la formation des différents besoins. Ainsi l'analyse peut être réalisée sous la forme d'ateliers réguliers avec un consultant en sécurité informatique, il est donc important que les différentes parties aient connaissance de la méthodologie **OCTAVE Allegro**.
+
+Ces ateliers peuvent influencer les choix d'architecture et par conséquent, faire évoluer les exigences de sécurité.
 
 [^23]: Le *CISA* est une agence fédérale américaine.
 [^24]: **MEHARI** est une méthode d'analyse de risques.
@@ -61,3 +108,4 @@ Ainsi le modèle DREAD nécessite d'attribuer une noute de un à trois (*low*, *
 [^26]: **Microsoft** est une société d'informatique américaine.
 [^27]: **Praerit Garg** est un ingénieur chez *Microsoft*.
 [^28]: **Loren Kohnfelder** est un ingénieur chez *Microsoft*.
+[^29]: Un **framework** désigne un ensemble de composants logiciels structurels, ainsi il se distingue d'une simple bibliothèque logicielle.

@@ -11,7 +11,7 @@ Tout cela peut être fait en chiffrant les éventuelles conséquences *directes*
 
 Cette réalisation est simple et rapide, elle permet de s'assurer que les équipes de sécurité, DevOps et le business sont alignés sur les menaces et leurs conséquences.
 
-### Comment conduire un BIA ?
+### Conduire un BIA
 
 A vrai dire, il n'existe pas réellement de normes formelles pour un **BIA**[@Bia2014]. La méthodologie peut varier selon l'organisation.
 
