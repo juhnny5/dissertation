@@ -6,6 +6,8 @@ L'approche nous permet d'apporter de la transparence sur ce qui est réalisé (s
 Il ne faut pas oublier qu'il n'avait pas été prévu dans l'idée initiale d'intégrer de manière efficace la sécurité.
 Il est ainsi important de comprendre d'où vient le DevOps et les différentes motivations qui l'ont animé pour pouvoir apporter des réponses efficaces concernant la sécurité de celle-ci.
 
+Ainsi, nous allons pouvoir se poser une première question importante : Comment livrer à haute fréquence du logiciel sécurisé ? En effet, nous le verrons par la suite, mais l'un des principaux point fort du DevOps est de fournir des logiciels rapidement, mais est-ce toujours sécurisé ? Est-ce que ça a été pensé au démarrage ?
+
 ## Motivations
 
 Depuis la naissance de ce mouvement, on parle peu de la sécurité, pour que ce mouvement puisse perdurer et être appliqué efficacement dans une entreprise, les entreprises se doivent d'appliquer la sécurité et de faire de la sécurité un axe majoritaire et principal d'amélioration de leur industrialisation par le biais du DevOps.
@@ -24,6 +26,8 @@ Vous comprendrez au long de ce mémoire comment il apporte naturellement des ré
 Mais aussi les techniques et méthodes à appliquer pour pouvoir accompagner de manière optimale, les changements culturels et de risques potentiels lisés à la sécurité, comment les définir, les relever et les traiter dans une approche DevOps.
 
 Le dernier objectif est bien évidemment, par le biais de retours d'expérience, d'apporter des solutions fonctionnelles (qu'elles soient méthodologiques ou logicielles).
+
+Ainsi nous verrons que l'ajout de la sécurité dans une approche DevOps passe forcémment par un changement de mode de pensée, qui jusque là, visée autrefois, à une approche de sécurisation traditionnelle (c'est-à-dire : une séparation des rôles, un droit de veto de l'équipe de sécurité, la sécurisation sur des besoins figés et de stopper pour auditer).
 
 ## Organisation du mémoire
 

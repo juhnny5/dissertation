@@ -19,6 +19,7 @@ SRC                     = md/00_introduction.md       \
                           md/06_architecture.md       \
                           md/07_codereview.md       \
                           md/08_secenv.md       \
+                          md/08_pentest.md       \
                           md/09_monitoring_audit.md           \
                           md/10_cloud.md           \
                           md/11_containers.md           \
