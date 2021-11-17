@@ -25,9 +25,9 @@ SRC                     = md/00_introduction.md       \
                           md/11_containers.md           \
                           md/12_education.md           \
                           md/13_devsecops.md           \
-                          md/inreallife.md            \
-                          md/gofurther.md             \
                           md/conclusion.md
+                        #   md/inreallife.md            \
+                        #   md/gofurther.md             \
 
 BIBFILE                 = references.bib
 
