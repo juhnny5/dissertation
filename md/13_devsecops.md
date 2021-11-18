@@ -6,7 +6,7 @@ Ainsi, au long de ce mémoire, vous l'aurez compris que dans le domaine du déve
 
 Concrêtement, l'approche DevSecOps offre tout ce dont nous avons apporté dans le mémoire, bien évidemment, nous n'avons pas souhaité créer un nouveau chapitre sans avoir quelque chose à raconter dans celui-ci.
 
-Effectivement, il nous semble intéressant de vous détailler comment, par le biais du **DoD Enterprise DevSecOps Reference Design**, apporter de la coohérence dans votre démarche.
+Effectivement, il nous semble intéressant de vous détailler comment, par le biais du **DoD Enterprise DevSecOps Reference Design**[@DEDSORD], apporter de la coohérence dans votre démarche.
 
 ## DoD Enterprise DevSecOps Reference Design (DEDSORD)
 
