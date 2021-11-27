@@ -9,9 +9,9 @@ lot: true
 urlcolor: "blue"
 headeralternative: true
 link-citations: true
-date: "18/11/2021"
-hour: "15:44:34"
-revision: "c2b1e40f783428eb88ea957c0860ae60741847b1"
+date: "27/11/2021"
+hour: "11:17:52"
+revision: "579ebb317e29c3f0550a5ebecc5ba261d799ee4e"
 reviewer1: "**Frédéric BOUZY**, IPSSI"
 reviewer2: "**Alexandre BRIANCEAU**, Normation SAS"
 keywords-fr:
@@ -36,6 +36,6 @@ acknowledgements: |
 declaration: |
   Je, Julien Briault, déclare être l'auteur de ce mémoire, d'avoir cité les différentes sources utilisées, en outre, de ne pas avoir réalisé de plagiat d'un autre auteur.
 ---
-date: "18/11/2021"
-hour: "15:44:34"
-revision: "c2b1e40f783428eb88ea957c0860ae60741847b1"
+date: "27/11/2021"
+hour: "11:17:52"
+revision: "579ebb317e29c3f0550a5ebecc5ba261d799ee4e"

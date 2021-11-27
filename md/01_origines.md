@@ -1,18 +1,20 @@
 # Analyse et compréhension des concepts d'origine
 
-Lorsque **Patrick Debois**[^1] créé le terme DevOps en 2009, 
-il est très certainement loin de se douter qu'il est l'un des pionnier d'un mouvement 
+Avant de commencer cette analyse, nous souhaitons préciser que nous ne voulons pas faire un cours sur les origine du DevOps.
+Nous avons voulu apporter une vision claire par le biais d'exemples et d'explications, des manquements en terme de sécurité aux origines du DevOps.
+
+Lorsque **Patrick Debois**[^1] créé le terme DevOps en 2009,
+il est très certainement loin de se douter qu'il est l'un des pionnier d'un mouvement
 dont l'influence ne cessera de s'accroître dans le monde du numérique.
 
-Il n'a pas du tout était pensé, lorsque le DevOps a été définit, d'y instaurer la sécurité. 
-Pour comprendre comment améliorer de manière significative la sécurité lorsque l'on a une équipe DevOps dans son entreprise, il est 
+Il n'a pas du tout était pensé, lorsque le DevOps a été définit, d'y instaurer la sécurité.
+Pour comprendre comment améliorer de manière significative la sécurité lorsque l'on a une équipe DevOps dans son entreprise, il est
 très important de comprendre en détail, ce qu'est le DevOps, d'où ça vient, etc.
 
 Dans cette introduction, vous trouverez ansi des détails précis sur ce qu'est le DevOps mais aussi de ce qu'il est constitué et des
 techniques qui en découlent.
 
-
-##  D'où vient le DevOps?
+## D'où vient le DevOps?
 
 Il est intéressant de remonter dans le temps pour connaître et comprendre les origines du DevOps, comprendre d'où ça vient et qu'est-ce qui a donné naissance à ce mouvement.
 

@@ -6,7 +6,7 @@ Il est, dans ce cas précis, vivement recommandé de commencer par ajouter les p
 
 ## Priorisation des mesures
 
-Dans cette conclusions, nous souhaitons vous apporter ci-contre la liste des mesures importantes à mettre en place rapidement, ces mesures sont les plus efficaces si elles sont positionnées dans cet ordre : 
+Dans cette conclusions, nous souhaitons vous apporter ci-contre la liste des mesures importantes à mettre en place rapidement, ces mesures sont les plus efficaces si elles sont positionnées dans cet ordre :
 
 - Procéder à des tests unitaires
 - Analyser de manière automatique le code source (avec des outils comme *SonarQube*)

@@ -1,7 +1,7 @@
 # Introduction
 
 Alors que nous souhaitons de plus en plus d'optimisation et d'automatisation au sein de notre système d'information, l'approche DevOps permet d'apporter des réponses à ces besoins.
-L'approche nous permet d'apporter de la transparence sur ce qui est réalisé (sur ce que chacun fait plus exactement), améliorer la communication et la collaboration entre les développeurs, les opérationnels et les métiers. Nous verons comment ça a été réfléchit, les choses qui peuvent être améliorées, comment les améliorer ou les développer plus en détail pour y apporter plus de sécurité.
+L'approche nous permet d'apporter de la transparence sur ce qui est réalisé (sur ce que chacun fait plus exactement), améliorer la communication et la collaboration entre les développeurs, les opérationnels et les métiers. Nous verrons comment ça a été réfléchit, les choses qui peuvent être améliorées, comment les améliorer ou les développer plus en détail pour y apporter plus de sécurité.
 
 Il ne faut pas oublier qu'il n'avait pas été prévu dans l'idée initiale d'intégrer de manière efficace la sécurité.
 Il est ainsi important de comprendre d'où vient le DevOps et les différentes motivations qui l'ont animé pour pouvoir apporter des réponses efficaces concernant la sécurité de celle-ci.
@@ -27,7 +27,7 @@ Mais aussi les techniques et méthodes à appliquer pour pouvoir accompagner de 
 
 Le dernier objectif est bien évidemment, par le biais de retours d'expérience, d'apporter des solutions fonctionnelles (qu'elles soient méthodologiques ou logicielles).
 
-Ainsi nous verrons que l'ajout de la sécurité dans une approche DevOps passe forcémment par un changement de mode de pensée, qui jusque là, visée autrefois, à une approche de sécurisation traditionnelle (c'est-à-dire : une séparation des rôles, un droit de veto de l'équipe de sécurité, la sécurisation sur des besoins figés et de stopper pour auditer).
+Ainsi nous verrons que l'ajout de la sécurité dans une approche DevOps passe forcémment par un changement de mode de pensée, qui jusque-là, visée autrefois, à une approche de sécurisation traditionnelle (c'est-à-dire : une séparation des rôles, un droit de veto de l'équipe de sécurité, la sécurisation sur des besoins figés et de stopper pour auditer).
 
 ## Organisation du mémoire
 
@@ -37,5 +37,7 @@ Le mémoire est organisé de la manière suivante :
 - Dans la seconde partie, nous décortiquerons les différentes méthodes qui gravitent autour du DevOps pour comprendre ce qu'elles ont pu apporter et comment par la suite les sécuriser.
 - La sécurité d'une entreprise ne passe pas uniquement que par la partie informatique de celle-ci, chaque décision doit soigneusement être clairement établit et doit passer par une étude d'impact sur le *business* afin de limiter les risques liés à celui-ci.
 - Le DevOps apporte des méthodes et des solutions pour tester son système informatisé, dans le but d'y rajouter de la sécurité, il est important de comprendre comment mettre en place des scénarios visant à remplacer un potentiel *pirate informatique*.
-- Pour aller plus loins dans l'ajout de la sécurité dans la mouvance DevOps, il est bon de rappeler et de déterminer de manière précise, les exigences de sécurité pour mieux les appliquer. Ainsi dans cette section nous trouverons les différentes questions à ce poser dès lors que nous souhaitons ajouter de la sécurité au DevOps.
+- Pour aller plus loins dans l'ajout de la sécurité dans la mouvance DevOps, il est bon de rappeler et de déterminer de manière précise, les exigences de sécurité pour mieux les appliquer. Ainsi dans cette section nous trouverrons les différentes questions à ce poser dès lors que nous souhaitons ajouter de la sécurité au DevOps.
 - Ensuite, nous avons réalisé une étude architecturale visant à relever les principaux risques d'architecture, cette section vise à expliquer comment mener à bien cette analyse de risques en apportant des méthodologies.
+- Et nous palerons de la revue de code, la sécurisation de l'environnement DevOps, les tests d'intrusion applicatifs, la jouranlisation et la surveillance, la sensibilisation, l'éducation et la formation.
+- Pour en finir, nous parlerons du DevSecOps et tout pariculièrement du *DEDSORD*.
