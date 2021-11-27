@@ -1,29 +1,35 @@
 ---
-title: Soutenance de fin d'études
-subtitle: Comprendre pour mieux placer efficacement la sécurité dans une approche DevOps
-author: Julien Briault
-theme: Warsaw
-date: 06 Octobre 2021
+title: Soutenance de fin d'étude
+author: Julien Briault - IPSSI EISI 22.3
+theme: gaia
+_class: lead
+paginate: true
+backgroundColor: #fff
+backgroundImage: file('https://marp.app/assets/hero-background.svg')
+marp: true
 ---
 
+![bg left:30% 80%](https://www.rudder.io/wp-content/uploads/2021/08/logo-rudder-2021.svg)
+# Soutenance de fin d'étude
 
+
+
+---
 # $whoami
 
-- Artificial Intelligence- The ability of machine to think and behave like humans.
-- How does the machine learn on its own? - That is called Machine Learning. ML is the study of computer algorithms that improve automatically with experience.
-- Just like humans learn with experience - Machines also learn with experience!
-- Examples of common AI? Alexa, Siri, Google Home, Self Driving Cars, Robots etc.
+- 23 ans (et toutes mes dents)
+- Ingénieur Système & Développeur Golang/Python chez [rudder.io](https://rudder.io).
+- Passionné d'informatique et de MAO (non, pas le dictateur du même nom), deejay à mes heures perdues.
+- Anime des talks autour de divers sujets comme :
+  - NetDevOps / Network Automation
+  - DevSecOps
 
-# What's out there?
+---
 
-![Verticles](img/Untitled.png)
+# Disclaimer
 
+...
 
-# How do computers make decisions?
+# Pourquoi ce choix de sujet ?
 
-- Conditional statements are used to perform different actions based on different conditions.
-- In many programming languages, decisions (also called conditionals) take the form of an if-then construct. They start with a condition, which is then evaluated as either True or False.
-
-# How do computers make decisions?
-
-![Flow chart](img/Untitled 1.png){ width=250px }
+...

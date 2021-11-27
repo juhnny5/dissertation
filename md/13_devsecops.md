@@ -53,11 +53,11 @@ Il peut avoir divers rôles :
 
 Il est important de rappeler que pour chaque phase de cycle de vie nous avons des familles d'outils :
 
-- Durant la phase "*Code*", on trouve les outils SAST[^36], qui analysent le code source et essaient de trouver des patterns de vulnérabilités directement dans le code.
-- Durant la phase "*Build*", on trouve les outils SCA[^37], qui analysent les dépendances, les composants externes du code source (nous en avons déjà parlé dans la section d'analyse du code).
-- Durant la phase "*Test*", on trouve les outils DAST[^38], qui génère des requêtes suivant des patterns d’attaques connues pour visualiser si l’application est vulnérable.
-- Durant la phase "*Operate*", on trouve les solutions MFA[^39], qui offrent le service de l’authentification multi facteur (comme par exemple : **Google Authenticator**).
-- Et pour terminer, durant la phase "*Monitor*", on trouve les solution SIEM, qui permettent de gérer et corréler les journaux pour des raisons de *surveillance* et *monitoring*.
+- Dans l'étape "*code*", nous avons trouvé l'outil SAST [^ 36], qui analyse le code source et essaie de trouver des modèles de vulnérabilité directement dans le code.
+- Dans la phase "*Build*", nous avons trouvé l'outil SCA [^ 37], qui analyse les dépendances et les composants externes du code source (nous en avons discuté dans la section analyse de code).
+- Dans la phase "*test*", nous avons trouvé l'outil DAST [^38], qui génère des requêtes selon des schémas d'attaque connus pour voir si l'application est vulnérable.
+- Dans l'étape "*opération*", nous avons trouvé la solution MFA[^39], qui fournit des services d'authentification multi-facteurs (par exemple : **Google Authenticator**).
+- Et pour terminer, dans la phase "*Monitor*", on trouve les solutions **SIEM**, qui permettent de gérer et corréler les journaux pour des raisons de *surveillance* et *monitoring*.
 
 [^35]: **Nicolas Chaillan** est responsable logiciel de 'US Ariforce et co-responsable de l'initiative *DEDSORD*.
 [^36]: **SAST** signifie "Static Application Security Testing"

@@ -5,8 +5,7 @@ Ces seuls scénarios ne permettent pas de garantir que l'application répond à 
 programme répond bien à l'attendu. Cette partie joue forcémment un rôle essentiel dans l'amélioration de la sécurité du produit puisqu'elle permet de vérifier *intégrité* (confère : le **DICT** ).
 
 Pour aller plus loins, nous avons donc pris la décision de se diriger vers des *scénarions d'abus* (abuse cases en anglais). Les scénartios d'abus vont bien au-delà des cas d'usages habituels.
-Effectivement, comme on peut le constater dans l'article scientifique publié par l'*université Edith Cowan*[@Cowan2011], édité par **Michael N. JOHNSTONE**[^19], ils se focalisent principalement
-sur les scénarios de malversation des fonctionnalités et sur leurs potentielles conséquences.
+Effectivement, comme nous pouvons le constater dans l'article scientifique publié par l'*université Edith Cowan*[@Cowan2011], édité par **Michael N. JOHNSTONE**[^19], ils se focalisent principalement sur les scénarios de malversation des fonctionnalités et sur leurs potentielles conséquences.
 
 Par exemple, il s'agirait de songer à un attaquant :
 
@@ -17,7 +16,7 @@ Comme vous l'aurez compris, cette étape nous permets donc d'identifier, bien de
 En effet, chaque scénario de malversation devra faire l'objet d'exigences de sécurité spécifiques et de tests d'approbation.
 
 Dans le DevOps, les fonctionnalités de l'application sont amenées à changer rapidement au fur et à mesure de l'identification des besoins des différents utilisateurs, ces
-scénarions sont ainsi réajustés durant la phase de développement (**code** dans le cycle DevOps), en même temps que la formation des scénarios d'utilisation (use cases). 
+scénarions sont ainsi réajustés durant la phase de développement (**code** dans le cycle DevOps), en même temps que la formation des scénarios d'utilisation (use cases).
 
 Tout comme les tests traditionnels (use cases), les scénarios d'abus (abuse cases) donneront naissance à des tests automatisés.
 
