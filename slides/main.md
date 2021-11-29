@@ -1,20 +1,16 @@
 ---
-title: Soutenance de fin d'étude
-author: Julien Briault - IPSSI EISI 22.3
-theme: gaia
-_class: lead
-paginate: true
-backgroundColor: #fff
-backgroundImage: file('https://marp.app/assets/hero-background.svg')
-marp: true
+title: 
+- Soutenance de fin d'étude
+subtitle: 
+- Comprendre pour mieux placer efficacement la sécurité dans une approche DevOps
+author: 
+- Julien Briault - IPSSI EISI 22.3
+theme: 
+- Copenhagen
+date: 
+- 27 novembre 2021
 ---
 
-![bg left:30% 80%](https://www.rudder.io/wp-content/uploads/2021/08/logo-rudder-2021.svg)
-# Soutenance de fin d'étude
-
-
-
----
 # $whoami
 
 - 23 ans (et toutes mes dents)
@@ -24,12 +20,8 @@ marp: true
   - NetDevOps / Network Automation
   - DevSecOps
 
----
-
 # Disclaimer
 
 ...
 
 # Pourquoi ce choix de sujet ?
-
-...

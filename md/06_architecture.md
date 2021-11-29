@@ -7,17 +7,17 @@ faiblesses aux impacts business identifiés.
 Cela consiste donc à décomposer les processus, les flux de données, les zones de stockage et les limites de confiance. Et pour terminer, cette analyse permet également 
 à les confronter aux scénarios d'attaques usuels afin d'évaluer leur potentielle probabilité d'occurrence.
 
-C'est le **CISA**[^23] qui publié en *octobre 2005* cet article ("*Architectural Rist Analysis*"[@Cisa2005]) afin de mettre en évidance les différents éléments à prendre en compte pour l'analyse des risques architecturale. 
+C'est le **CISA**[^23] qui publié en *octobre 2005* cet article ("*Architectural Rist Analysis*"[@Cisa2005]) afin de mettre en évidence les différents éléments à prendre en compte pour l'analyse des risques architecturale.
 
 ## Les méthodes à notre disposition
 
-Dans cette section, nous allons voir les différentes possibilités qui nous sont disponibles et celle que nous avons choisi. Bien évidemment, il existe grand nombre de méthodes pour l'analyse de risque (*MEHARI*[^24] par exemple ou encore **EBIOS Risk Manager**[^25]), nous allons nous concentrer sur deux méthodes qui sont plus adaptés à une analyse de risques **architecturale**, ce dernier *mot* est très important pour le choix de la méthode.
+Dans cette section, nous allons voir les différentes possibilités qui nous sont disponibles et celle que nous avons choisie. Bien évidemment, il existe grand nombre de méthodes pour l'analyse de risque (*MEHARI*[^24] par exemple ou encore **EBIOS Risk Manager**[^25]), nous allons nous concentrer sur deux méthodes qui sont plus adaptées à une analyse de risques **architecturale**, ce dernier *mot* est très important pour le choix de la méthode.
 
-Pourquoi ne pas avoir choisi la méthode **MEHARI** ou **EBIOS Risk Manager**, tout simplement parce que ces modèles montrent souvent leurs limites, en particulier par rapport à leur complexité (voir leur lourdeur) de mise en œuvre. Il nous faut beaucoup de ressources (nous entendons par *efforts* et *investissements*). 
+Pourquoi ne pas avoir choisi la méthode **MEHARI** ou **EBIOS Risk Manager**, tout simplement parce que ces modèles montrent souvent leurs limites, en particulier par rapport à leur complexité (voir leur lourdeur) de mise en œuvre. Il nous faut beaucoup de ressources (nous entendons par *efforts* et *investissements*).
 
-Il peut arriver que dans certains cas de figure, qu'ils s'avèrent *contre-productif*, en effet, ils mettent en jeu des processus peu résilients aux changements et aux évolutions ce qui est va à l'encontre de la démarche *DevOps*. A l'inverse, si l'on ne fait pas de DevOps, cette limitation prend tout son sens pour les grandes entreprises qui possèdent des systèmes d'informations complexes.
+Il peut arriver que dans certains cas de figure, qu'ils s'avèrent *contre-productifs*, en effet, ils mettent en jeu des processus peu résilients aux changements et aux évolutions ce qui est va à l'encontre de la démarche *DevOps*. A l'inverse, si l'on ne fait pas de DevOps, cette limitation prend tout son sens pour les grandes entreprises qui possèdent des systèmes d'informations complexes.
 
-Aux antipodes des processus de sécurité habituels, le DevOps et le contexte de business qui l'irrigue sont régis par de nouvelles règles de jeu, de méthodologie de gestion de projet. Ainsi les concepts habituels de sécurité sont complètement bousculés et c'est donc pour cela qu'il a fallut partir sur une autre méthodologie.
+Aux antipodes des processus de sécurité habituels, le DevOps et le contexte de business qui l'irrigue sont régis par de nouvelles règles de jeu, de méthode de gestion de projet. Ainsi les concepts habituels de sécurité sont complètement bousculés et c'est donc pour cela qu'il a fallu partir sur une autre méthodologie.
 
 ### Le STRIDE & DREAD, plus qu'éprouvé!
 
@@ -38,22 +38,19 @@ Elle permet d'identifier les vecteurs d'attaques suivants:
 
 : Tableau des attaques associées au *STRIDE* de la conférence "*Advanced Threat Modeling*" de l'**OWASP**. [@ATMOwasp] \label{tab:ugh}
 
-Cette première méthode est excellente pour repérer les menaces pendant la phase de conception d'une application ou d'un système (dans une démarche DevOps, ça sera lors de la phase **"code"**).
-Elle permet, en premier lieu, de détecter les menaces potentielles à l'aide d'un processus proactif. Ainsi, naturellement cette méthode vise à garantir qu'une application respecte l'acronyme **DICT**.
-
 Nous trouverons un exemple de menaces STRIDE en annexe de ce mémoire. Le STRIDE ne peut être utilisé seul dans une approche DevOps, il doit venir avec la méthode **DREAD** qui va nous permettre d'estimer leur niveau de risque. Dans le modèle DREAD, si permet d'établir un tableau avec différentes valeurs. Ces valeurs sont ce que l'on appelle les *5 points clés du modèles DREAD*.
 
-1. **Dommages** : quel est le montant total des dommages que la cybermenace est capable de causer à votre entreprise ?
-2. **Reproductibilité** : Avec quelle facilité d'autres pirates informatiques peuvent-ils reproduire la cybermenace ?
-3. **Exploitabilité** : Combien de temps et d'énergie sont nécessaires pour exploiter la menace et, ainsi, effectuer une cyberattaque contre votre entreprise ?
-4. **Utilisateurs concernés** : combien de personnes, à l'intérieur ou à l'extérieur de votre entreprise, seront affectées par la cybermenace ?
-5. **Découvrabilité** : Pouvez-vous facilement découvrir la cybermenace ?
+1. **dommage** : quel est le montant total des dommages que la cyber menace est capable de causer à votre entreprise ?
+2. **Reproductibilité** : Avec quelle facilité d'autres pirates informatiques peuvent-ils reproduire la ccybermenace?
+3. **Exploitabilité** : Combien de temps et d'énergie sont nnnécessairespourexploiter la menace et, ainsi, effectuer une cyberattaque contre votre entreprise ?
+4. **Utilisateurs concernés** : combien de personnes, à l'intérieur ou à l'extérieur de votre entreprise, seront affectées par la cyber menace ?
+5. **Découvrabilité** : Pouvez-vous facilement découvrir la cyber menace ?
 
-Ainsi le modèle DREAD nécessite d'attribuer une noute de un à trois (*low*, *medium*, *high*) à chacun des cinq points clés. Pour terminer, toute *cybermenace* donnée devrait avoir une note totale de cinq à quinze. Nous trouverons un exemple de tableau DREAD en annexe de ce document.
+Ainsi le modèle DREAD nécessite d'attribuer une nnnroutedeunà trois (*low*, *medium, *high*) à chacun des cinq points-clés Pour terminer, toute cyber menace donnée devrait avoir une note totale de cinq à quinze. Nous trouverons un exemple de tableau *DREAD* en annexe de ce document.
 
 ### OCTAVE Allegro, la méthodologie nouvelle génération!
 
-OCTAVE Allegro[@OCTAVE2007] est un *framework*[^29] pour la gestion des risques, ce framework est la troixième et dernière version d'**OCTAVE** (pour *Operationally Critical Threat, Asset and Vulnerability Evaluation*). A l'origine **OCTAVE** fut développer par le *CERT Survivable Enterprise Management Team*, cette méthodologie permet d'identifier et d'évaluer les risques de sécurité associés aux systèmes d'informations.
+OCTAVE Allegro[@OCTAVE2007] est un *framework*[^29] pour la gestion des risques, ce framework est la troisième et dernière version d'**OCTAVE** (pour *Operationally Critical Threat, Asset and Vulnerability Evaluation*). A l'origine **OCTAVE** fut développé par la *CERT Survivable Enterprise Management Team*, cette méthodologie permet d'identifier et d'évaluer les risques de sécurité associés aux systèmes d'information.
 
 Plus exactement :
 
@@ -66,23 +63,23 @@ Il faut voir le *CERT OCTAVE* comme une famille de processus visant à remplacer
 
 Dans cette famille, on y retrouve donc plusieurs version qui sont à utiliser en fonction de notre organisation.
 
-La première est **OCTAVE-S v1.0** qui est destinée aux organisations de taille moyenne (~100 employé(e)s), dans lesquelles nous avons une équipe d'analystes, une excellente connaissance de l'organisation mais une connaissance technique limitée (par exemple, que l'on ne connait pas quel type de serveur web est en place).
+La première est **OCTAVE-S v1.0** qui est destinée aux organisations de taille moyenne (~100 employées)s), dans lesquelles nous avons une équipe d'analystes, une excellente connaissance de l'organisation mais une connaissance technique limitée (par exemple, que l'on ne connait pas quel type de serveur web est en place).
 
-La seconde est **OCTAVE v2.0** est plutôt destinée aux grandes organisations (~300 et + d'employé(e)s), on va y retrouver une hiérarchie (pour les équipes IT) à plusieurs niveaux, une infrastructure IT interne et une connaissance technique importante (avec une évaluation des vulnérabilités). Cette méthodologie n'est pas totalement compatible avec le DevOps qui, de plus en plus
-vise à externaliser certaines informations (via le Cloud par exemple).
+La seconde est **OCTAVE v2.0** est plutôt destinée aux grandes organisations (~300 et + d'employée)s), on va y retrouver une hiérarchie (pour les équipes IT) à plusieurs niveaux, une infrastructure IT interne et une connaissance technique importante (avec une évaluation des vulnérabilités). Cette méthode n'est pas totalement compatible avec le DevOps qui, de plus en plus
+visait à externaliser certaines informations (via le Cloud par exemple).
 
-Et pour temriner, nous retrouvons **OCTAVE Allegro** qui permet une évaluation rapide des risques (ce qui est très important dans une démarche DevOps, nous recherchons à être efficace et rapide) avec une excellente connaissance de l'organisation mais une connaissance technique limitée.
+Et pour terminer, nous retrouvons **OCTAVE Allegro** qui permet une évaluation rapide des risques (ce qui est très important dans une démarche DevOps, nous recherchons à être efficaces et rapides) avec une excellente connaissance de l'organisation mais une connaissance technique limitée.
 
 Il est important de souligner que pour placer efficacement cette méthode, il est important de respecter les 8 grandes étapes qui sont les suivantes :
 
 - Etablir les critères d'évaluation du ou des risques
-  * Définir un ensemble de mesures qui permettra d'évaluer l'impact des meances sur les objectifs d'affaires (lien avec le BIA précédemment cité) afin de déterminer le niveau de risque.
+  * Définir un ensemble de mesures qui permettra d'évaluer l'impact des menaces sur les objectifs d'affaires (lien avec le BIA précédemment cité) afin de déterminer le niveau de risque.
   * Prioriser les mesures d'impact de la plus importante (5) à la moins importante (1).
 - Etablir les profils des actifs informationnels
 - Identifier les intervenants et les contenants
-  * Identifier les contenants techniques (internes et externes, les serveurs d'application par exemple).
-  * Identifier les lieux physiques (internes et extenes, où sont stockés les copies des sauvegardes).
-  * Identifier les intervenant (personnes internes et externes).
+  * Identifier les contenants techniques (internes et externes, les serveurs d'applications par exemple).
+  * Identifier les lieux physiques (internes et externes, où sont stockées les copies des sauvegardes).
+  * Identifier les intervenants (personnes internes et externes).
 - Identifier les domaines de préoccupation
   * Décrir une situation pouvant affecter un actif
 - Identifier les scénarios de menaces
@@ -90,13 +87,13 @@ Il est important de souligner que pour placer efficacement cette méthode, il es
 - Identifier les risques
   * Pour chaque scénario d'abus ou de menace identifié, déterminer les conséquences. 
 - Analyser les risques
-  * Déterminer la valeur qualitative de l'imapct d'une menace pour l'organisation (voir annexes). 
+  * Déterminer la valeur qualitative de l'impact d'une menace pour l'organisation (voire annexe). 
 - Choisir une approche face aux risques
-  * il faut *accepter* (fatalité), l'*atténuer* (réduire l'impact d'une attaque réussie), *retarder la décision* (plus d'information sont nécessaires, continuer l'analyse), *transférer* (assurance).
+  * il faut *accepter* (fatalité), l'*atténuer* (réduire l'impact d'une attaque réussie), *retarder la décision* (plus d'informations sont nécessaires, continuer l'analyse), *transférer* (assurance).
 
 ### Le choix effectué
 
-La gestion des risques et l'analyse des risques est une étapes assez laborieuse mais primordiale, car plus de la moitié des problèmes de sécurité sont malheureusement la résultante de problèmes d'architecture. Ainsi, la méthode **OCTAVE Allegro** s'appraîte au mieux au contexte DevOps en apportant des réponses tout en étant adapté au contexte.
+La gestion des risques et l'analyse des risques est une étape assez laborieuse mais primordiale, car plus de la moitié des problèmes de sécurité sont malheureusement la résultante de problèmes d'architecture. Ainsi, la méthode **OCTAVE Allegro** s'apprête au mieux au contexte DevOps en apportant des réponses tout en étant adaptée au contexte.
 
 Dans le DevOps, l'architecture peut évoluer drastiquement au gré de la formation des différents besoins. Ainsi l'analyse peut être réalisée sous la forme d'ateliers réguliers avec un consultant en sécurité informatique, il est donc important que les différentes parties aient connaissance de la méthodologie **OCTAVE Allegro**.
 

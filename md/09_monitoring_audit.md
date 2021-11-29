@@ -1,11 +1,11 @@
 # La journalisation et la surveillance
 
-La journalisation (ou *loggin*) et la surveillance (*monitoring*) des événements sont vitaux en DevOps comme en sécurité de manière globale.
+La journalisation (ou *logging*) et la surveillance (*monitoring*) des événements sont vitaux en DevOps comme en sécurité de manière globale.
 Ils doivent particulièrement permettre de détecteur au plus tôt les intrusions et actions anormales, mais également de corriger les effets d'une attaque.
 
 Ainsi toutes les composantes doivent pouvoir envoyer des journaux des modifications et des événements apportés à celui-ci.
 
-Par exemple, tout redémarrage manuel d'un conteneur Docker doit être journalisé de sorte à pouvoir blâmer la personne qui a fait une modification non-autorisée ou tout simplement pouvoir 
+Par exemple, tout redémarrage manuel d'un conteneur Docker doit être journalisé de sorte à pouvoir blâmer la personne qui a fait une modification non autorisée ou tout simplement pouvoir 
 remonter à un potentiel pirate informatique.
 
 De ce fait, la journalisation est primordiale et il convient donc de considérer les informations relatives à l'utilisation des données (comme, tout simplement, le nombre et la taille des transactions), en plus des événements usuels.
@@ -15,7 +15,7 @@ De ce fait, la journalisation est primordiale et il convient donc de considérer
 Nous nous devons, par le biais d'outils modernes comme *Prometheus* par exemple, de pouvoir couvrir les éléments suivants :
 
 - La **disponibilité** des serveurs, des réseaux, des applications (logiciels), des processus, etc.
-- La **disponibilité** des ressources d'un système, telles que l'espace disque, la mémoire ou encore le CPU.
+- La **disponibilité** des ressources d'un système, tel qu'l'espace disque, la mémoire ou encore le CPU.
 - La **performance**, par exemple, les temps de réponse d'une application, si une application met du temps à répondre de manière anormale, il est probable que celle-ci soit attaquée, il nous conviendra alors de mettre en place de l'*alerting* et du *reporting*, nous y reviendrons après.
 - La **fiabilité** et la **qualité** par analyse de la disponibilité (voir l'impact sur le business et le calcul du taux de disponibilité) sur une période donnée.
 - La **sécurité** d'un point de vue générique du terme, pour prévenir des attaques (exemple : supervision des logs du *waf*).
@@ -27,9 +27,9 @@ Nous devrons ainsi déclarer et relever les informations suivantes :
 
 - Qui contacter en cas de dysfonctionnement d'une composante?
 - Que dois-je superviser?
-- Est-ce que ça vaut la peine d'être alerter?
+- Est-ce que ça vaut la peine d'être alerté?
 - Comment et où l'intégrer dans notre pipeline DevOps? 
-  * Exemple :  Configurer *Prometheus* lors de la mise en place du serveur via l'utilisation d'*Ansible*.
+  * Exemple : Configurer *Prometheus* lors de la mise en place du serveur via l'utilisation d'*Ansible*.
 
 Ces questions sont très importantes pour pouvoir placer efficacement la sécurité dans notre *pipeline* DevOps.
 
@@ -40,13 +40,13 @@ Une nouvelle fois, en complément de l'audit de configuration, il est très impo
 ## De la fonction intiale de la journalisation de ses applications
 
 Lorsqu'un événement inattendu intervient sur un équipement réseau (comme une panne), un administrateur commence par analyser des fichiers de journalisation autrement appelés "les logs".
-Ces derniers sont générés par les applications, services mais aussi par des équipements. Ils rencesent l'ensemble des événements survenus et ceci, en temps réel.
+Ces derniers sont générés par les applications, services mais aussi par des équipements. Ils recensent l'ensemble des événements survenus et ceci, en temps réel.
 
-La journalisation possède plusieurs niveaux (debug, warning, critical, etc). Ainsi il n'est pas nécessaire d'activer l'envoie de toutes les informations (via le *debug*), sinon, les informations seront difficilement traitables.
+La journalisation possède plusieurs niveaux (debug, warning, critical, etc). Ainsi il n'est pas nécessaire d'activer l'envoi de toutes les informations (via le *debug*), sinon, les informations seront difficilement traitables.
 
-Ainsi un événement se caractérise par exemple, tout simplement, par un changement d'état d'une interface si on prend le cas d'un équipement réseau (commutateur). Concrètement, les journaux correspondent à des messages textes qui sont généralement stockés sur la machine permettant à un administrateur de connaître l'activité de l'actif en temps réel. Il conviendra donc d'envoyer les bonnes informations de sorte à ce quelles soient lisibles par un **SOC**.
+Ainsi un événement se caractérise par exemple, tout simplement, par un changement d'état d'une interface si on prend le cas d'un équipement réseau (commutateur). Concrètement, les journaux correspondent à des messages textes qui sont généralement stockés sur la machine permettant à un administrateur de connaître l'activité de l'actif en temps réel. Il conviendra donc d'envoyer les bonnes informations de sorte à ce qu'elles soient lisibles par un **SOC**.
 
-Dans le cadre d'une démarche DevOps, il est important de suivre les *recommandations de sécurité pour la mise en oeuvre d'un système de journalisation*[@ANSSI2013] de l'ANSSI publiées en 2013 qui sont encore valables actuellement. Bien évidemment, il nous faudra appliquer ces recommendations en prenant compte les cas de figures de votre système d'information intégrant le DevOps.
+Dans le cadre d'une démarche DevOps, il est important de suivre les *recommandations de sécurité pour la mise en oeuvre d'un système de journalisation*[@ANSSI2013] de l'ANSSI publiées en 2013 qui sont encore valables actuellement. Bien évidemment, il nous faudra appliquer ces recommandations en tenant compte les cas de figure de votre système d'information intégrant le DevOps.
 
 ### Cas concret : rsyslog au service du bien
 

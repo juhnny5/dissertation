@@ -1,6 +1,6 @@
 # Conclusion
 
-Nous l'aurons compris dans ce mémoire, implémenter l'ensemble de ces bonnes pratiques quelles soient structurées (ou non avec le **DEDSORD** par exemple) n'est pas simple et nécessite beaucoup de temps ainsi que des ressources compétentes et spécialisées. Il n'est donc pas toujours rare de devoir effectuer des choix, ne serait-ce, tout simplement, qu'en terme de priorisation.
+Nous l'aurons compris dans ce mémoire, implémenter l'ensemble de ces bonnes pratiques qu'elles soient structurées (ou non avec le **DEDSORD** par exemple) n'est pas simple et nécessite beaucoup de temps ainsi que des ressources compétentes et spécialisées. Il n'est donc pas toujours rare de devoir effectuer des choix, ne serait-ce, tout simplement, qu'en matière de priorisation.
 
 Il est, dans ce cas précis, vivement recommandé de commencer par ajouter les processus qui nous permettrons par la suite de supprimer un maximum de vulnérabilités.
 
@@ -21,4 +21,4 @@ Bien évidemment, nous n'allons pas nous arrêter là, il convient donc en plus,
 
 Comme nous avons souhaité le faire tout au long de ce mémoire, apporter un regard nouveau et une analyse détaillée tout en apportant des réponses claires sur certains points de la sécurité dans le DevOps, il est important de prendre en compte que le DevOps est un domaine vaste et qu'il n'a donc pas été possible de tout détailler et lister (contrainte de temps et de pages).
 
-Le **DEDSORD** est là chose à réellement suivre si l'on souhaite apporter de la coohérence en terme de sécurité dans sa démarche DevOps tendant vers le DevSecOps, mais bien évidemment, il ne faut pas tout prendre pour argent comptant et ainsi, adapter ce recuil à son cas d'usage.
+Le **DEDSORD** est là chose à réellement suivre si l'on souhaite apporter de la cohérence en termes de sécurité dans sa démarche DevOps tendant vers le DevSecOps, mais bien évidemment, il ne faut pas tout prendre pour argent comptant et ainsi, adapter ce recuil à son cas d'usage.

@@ -1,17 +1,17 @@
 # Analyse et compréhension des concepts d'origine
 
-Avant de commencer cette analyse, nous souhaitons préciser que nous ne voulons pas faire un cours sur les origine du DevOps.
-Nous avons voulu apporter une vision claire par le biais d'exemples et d'explications, des manquements en terme de sécurité aux origines du DevOps.
+Avant de commencer cette analyse, nous souhaitons préciser que nous ne voulons pas faire un cours sur les origines du DevOps.
+Nous avons voulu apporter une vision claire par le biais d'exemples et d'explications, des manquements en termes de sécurité aux origines du DevOps.
 
 Lorsque **Patrick Debois**[^1] créé le terme DevOps en 2009,
-il est très certainement loin de se douter qu'il est l'un des pionnier d'un mouvement
+il est très certainement loin de se douter qu'il est l'un des pionniers d'un mouvement
 dont l'influence ne cessera de s'accroître dans le monde du numérique.
 
-Il n'a pas du tout était pensé, lorsque le DevOps a été définit, d'y instaurer la sécurité.
+Il n'a pas du tout été pensé, lorsque le DevOps a été défini, d'y instaurer la sécurité.
 Pour comprendre comment améliorer de manière significative la sécurité lorsque l'on a une équipe DevOps dans son entreprise, il est
 très important de comprendre en détail, ce qu'est le DevOps, d'où ça vient, etc.
 
-Dans cette introduction, vous trouverez ansi des détails précis sur ce qu'est le DevOps mais aussi de ce qu'il est constitué et des
+Dans cette introduction, vous trouverez ainsi des détails précis sur ce qu'est le DevOps mais aussi de ce qu'il est constitué et des
 techniques qui en découlent.
 
 ## D'où vient le DevOps?
@@ -33,12 +33,12 @@ C'est de là où est parti le sujet de réflexion sur lequel il voulait trouver 
 
 C'est en août 2008, il participe à une conférence agile[^3] de Toronto où il va rencontrer le développeur **Andrew Shafer**[^4] qui voulait présenter un sujet qui l'inspirait: "Agile Instructure" [@AgileRoots2009].
 
-Dans cette conférence qu'il donnera un an plus tard [@AgileRoots2009] qu'il définit le "Wall of confusion", traduit par le fameux "mur de confusion", qui détermine jusque là, la coupure entre les développeurs d'un côté et les opérationnels de l'autre. Cette coupure est d'ailleurs aussi valable avec la sécurité mais j'y reviendrais un peu plus tard au fil de ce mémoire.
+Dans cette conférence qu'il donnera un an plus tard [@AgileRoots2009] qu'il définit le "Wall of confusion", traduit par le fameux "mur de confusion", qui détermine jusque-là, la coupure entre les développeurs d'un côté et les opérationnels de l'autre. Cette coupure est d'ailleurs aussi valable avec la sécurité mais j'y reviendrais un peu plus tard au fil de ce mémoire.
 
-Malheureusement, Andrew Shafer n'a pas pu déroulé son sujet car seul Patrick Debois était présent dans cette salle.
+Malheureusement, Andrew Shafer n'a pas pu dérouler son sujet car seul Patrick Debois était présent dans cette salle.
 
-Cela leur a permis de discuter ensemble autour de cette problématique qui rongait Patrick Debois depuis quelques temps.
-C'est suite à cette discussion qu'ils crééent l'**Agile Systems Administration Group**.
+Cela leur a permis de discuter ensemble autour de cette problématique qui rongeait Patrick Debois depuis quelque temps.
+C'est suite à cette discussion qu'ils créent l'**Agile Systems Administration Group**.
 
 #### De frustré à leader d'un mouvement
 
@@ -59,8 +59,8 @@ C'est à ce même moment que le *hashtag* **#DevOps** fait son apparition et qu'
 
 #### Evolution avec le temps
 
-En une dizaine d'année, nous avons pu rencontrer et visualiser les différentes choses qui ont pu découler de ce terme générique, qui est le "DevOps".
-Beaucoup de déclinaisons et de sous-mouvements se sont créés, je viendrais à en parler plus tard dans ce mémoire.
+En une dizaine d'années, nous avons pu rencontrer et visualiser les différentes choses qui ont pu découler de ce terme générique, qui est le "DevOps".
+Beaucoup de déclinaisons et de sous-mouvements se sont créées, je viendrais à en parler plus tard dans ce mémoire.
 
 #### Rapport avec la sécurité
 
@@ -68,17 +68,17 @@ Comme vous l'avez compris, à l'origine de cette mouvance, il n'a pas été ques
 
 Justement, l'intérêt que nous voyons dans ce mémoire est d'expliquer comment le faire, quels outils utilisés, quelle méthodologie, etc.
 
-## Que permet de le DevOps?
+## Que permet le DevOps?
 
-Ajourd'hui, les applications doivent être produites et déployées en continu. A l'ère du *cloud computing*[^10], les soltions logicielles doivent être évolutives, disponibles,
+Aujourd'hui, les applications doivent être produites et déployées en continu. A l'ère du *cloud computing*[^10], les solutions logicielles doivent être évolutives, disponibles,
 hyperperformantes avec une latence de plus en plus faible et, bien entendu, à moindre coût.
 
-Ainsi le DevOps permet aux différentes équipes de développement et d'infrastructure, de s'unir et d'être plus reactives face à ces nouvelles exigences.
+Ainsi le DevOps permet aux différentes équipes de développement et d'infrastructure, de s'unir et d'être plus réactives face à ces nouvelles exigences.
 De par son *design* le DevOps répond à des exigences de sécurité qui ne sont des moindres.
 
 En effet si l'on reprend le principe même de la sécurité et surtout du **DICT** (pour *Disponibilité*, *Intégrité*, *Confidentialité* et *Traçabilité*), le DevOps répond naturellement au premier point de cet acronyme, la **disponibilité**.
 
-Effectivement, l'un des gros intérêt du DevOps est de pouvoir garantir efficacement la disponibilité des applications et ainsi de garantir une partie de sa sécurité.
+Effectivement, l'un des gros intérêts du DevOps est de pouvoir garantir efficacement la disponibilité des applications et ainsi de garantir une partie de sa sécurité.
 Malheureusement, ça ne fait pas tout, il faut bien d'autres éléments pour que l'on puisse réellement parler de sécurité au sein du DevOps.
 
 Le DevOps est LE moyen de réussir l'évolution citée ci-dessus, avec comme philosophie, l'idée d'un monde dans lequel chaque composante de l'organisation d'une entreprise
@@ -105,7 +105,7 @@ La mesure permet d'apporter de manière importante de la méthode, reléguant l'
 #### Etape 3 : apprendre
 
 Tester (construire) et mesurer est important, mais pour aller au bout de la démarche, il est très important de formaliser les apprentissages qui découlent de cette approche.
-Les anglo-saxons appelent ça "*test and learn*". Pour que ça puisse être possible, il faut savoir prendre du recul, analyser les actions et ce qui a été mesuré.
+Les anglo-saxons appellent ça "*teste and learn*". Pour que ça puisse être possible, il faut savoir prendre du recul, analyser les actions et ce qui a été mesuré.
 Vous voyez où nous souhaitons en venir? En effet, nous allons pouvoir se baser de ce même principe du Lean pour commencer l'ajout de la sécurité au sein d'une approche DevOps.
 
 ### Kaizen : a la recherche de l'amélioration continue
@@ -121,7 +121,7 @@ Ce principe est très important pour comprendre comment apporter la sécurité d
 
 ## Le mémoire dans tout ça
 
-Maintenant qu'avec cette introduction nous avons pu apporter plus d'informations sur le fonctionnement du DevOps et d'où ça vient, nous allons en premier lieu, déterminer les différentes parties du DevOps (de quoi il est constitué). En second temps, nous allons parler des enjeux et impacts sur le *busines*, ensuite nous en viendrois à une solution établie et et pour terminer, nous expliquerons pourquoi avoir fait le choix de cette solution.
+Maintenant qu'avec cette introduction nous avons pu apporter plus d'informations sur le fonctionnement du DevOps et d'où ça vient, nous allons en premier lieu, déterminer les différentes parties du DevOps (de quoi il est constitué). En second temps, nous allons parler des enjeux et impacts sur le *business*, ensuite nous en viendrois à une solution établie et et pour terminer, nous expliquerons pourquoi avoir fait le choix de cette solution.
 
 [^1]: **Patrick Debois** est un ingénieur et développeur, il est l'inventeur du mot [DevOps](http://www.jedi.be/blog/).
 [^2]: Un *administrateur système* est une profession, dans le domaine de l'informatique qui consiste à maintenir et déployer des systèmes informatisés.

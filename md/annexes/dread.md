@@ -10,7 +10,7 @@ Elle montre les meances STRIDE dans une installation de *Commerce Server* et les
 
 ### Exemple de tableau DREAD
 
-Vous trouverez ci-dessous un exemple de priorisation des menaces selon le modèles *DREAD*, menaces héritées du modèle *STRIDE*. 
+Vous trouverez ci-dessous un exemple de priorisation des menaces selon le modèles *DREAD*, menaces héritées du modèle *STRIDE*.
 Ce tableau est tiré de la conférence nommée "*Session Hijacking: Threat Analysis and Countermeasures*"[@DREADExample].
 
 ![Priorisation des menaces selon le modèle DREAD](img/DREAD-EXAMPLE.png){width=60%}
